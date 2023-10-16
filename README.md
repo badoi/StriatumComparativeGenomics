@@ -8,6 +8,8 @@ Pittsburgh, PA 15213\
 Tel: (412) 648-0033 \
 Email: freyberg at pitt dot edu
 
+[Link to paper](https://www.biorxiv.org/content/10.1101/2023.05.04.539488v1)
+
 ## Multi-species integration of single cell striatal projection neurons
 This repository includes the code for comparative integrative analyses of single cell datasets of the mammalian striatum. 
 
