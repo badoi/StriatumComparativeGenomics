@@ -24,11 +24,7 @@ obj = LoadH5Seurat(save_fn)
 Idents(obj) = 'Project'
 DefaultAssay(obj) = 'RNA'
 
-obj = obj %>% 
-  NormalizeData(normalization.method = "LogNormalize", scale.factor = 10000) %>% 
-  FindVariableFeatures() %>% ScaleData() %>% RunPCA()
-  
-DefaultAssay(obj) = 'integrated'
+obj = obj
 
 ## from supplemental table s1 
 tran_et_al_sex = c("M", 'M', "M", 'F', "M", 'M', "M", 'F')

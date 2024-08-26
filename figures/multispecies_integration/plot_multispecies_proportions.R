@@ -19,6 +19,7 @@ options(future.globals.maxSize = 100 * 1024^3, future.seed=TRUE)
 DATADIR = 'data/tidy_data/'
 PLOTDIR = 'figures/multispecies_integration/plots'
 TABLDIR = 'figures/multispecies_integration/tables'
+
 dir.create(PLOTDIR, recursive = T)
 dir.create(TABLDIR, recursive = T)
 
