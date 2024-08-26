@@ -1,0 +1,90 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/gwas/munged/Depression-Howard_2019.sumstats.gz \
+--ref-ld-chr /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.Astro.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D1.D2H.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D1.Matrix.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D1.Striosome.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Matrix.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Striosome.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.INT.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.Microglia.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.Oligo.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.OPC.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/baseline_v1.1/baseline_v1.1.EUR. \
+--out /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/conditional/Human_Striatum_snATAC.conditional.Depression-Howard_2019.EUR \
+--w-ld-chr /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/weights/1000G.EUR.weights.hm3_noMHC. \
+--print-coefficients  
+
+Beginning analysis at Mon Jun 24 14:15:59 2024
+Reading summary statistics from /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/gwas/munged/Depression-Howard_2019.sumstats.gz ...
+Read summary statistics for 1172551 SNPs.
+Reading reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.Astro.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D1.D2H.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D1.Matrix.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D1.Striosome.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Matrix.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Striosome.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.INT.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.Microglia.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.Oligo.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.OPC.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/baseline_v1.1/baseline_v1.1.EUR.[1-22] ... (ldscore_fromlist)
+Traceback (most recent call last):
+  File "/home/bnphan/src/ldsc/ldsc.py", line 644, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 152, in _read_chr_split_files
+    out = parsefunc(_splitp(chr_arg), _N_CHR, **kwargs)
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 103, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 149, in ldscore
+    chr_ld = [l2_parser(sub_chr(fh, i) + suffix + s, compression) for i in chrs]
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 119, in l2_parser
+    x = read_csv(fh, header=0, compression=compression)
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 21, in read_csv
+    return pd.read_csv(fh, delim_whitespace=True, na_values='.', **kwargs)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/site-packages/pandas/io/parsers.py", line 655, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/site-packages/pandas/io/parsers.py", line 405, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/site-packages/pandas/io/parsers.py", line 762, in __init__
+    self._make_engine(self.engine)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/site-packages/pandas/io/parsers.py", line 966, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/site-packages/pandas/io/parsers.py", line 1582, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 394, in pandas._libs.parsers.TextReader.__cinit__ (pandas/_libs/parsers.c:4209)
+  File "pandas/_libs/parsers.pyx", line 651, in pandas._libs.parsers.TextReader._setup_parser_source (pandas/_libs/parsers.c:7620)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/gzip.py", line 94, in __init__
+    fileobj = self.myfileobj = __builtin__.open(filename, mode or 'rb')
+IOError: [Errno 2] No such file or directory: '/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.14.l2.ldscore.gz'
+
+Analysis finished at Mon Jun 24 14:17:10 2024
+Total time elapsed: 1.0m:11.28s
+Traceback (most recent call last):
+  File "/home/bnphan/src/ldsc/ldsc.py", line 644, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 152, in _read_chr_split_files
+    out = parsefunc(_splitp(chr_arg), _N_CHR, **kwargs)
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 103, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 149, in ldscore
+    chr_ld = [l2_parser(sub_chr(fh, i) + suffix + s, compression) for i in chrs]
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 119, in l2_parser
+    x = read_csv(fh, header=0, compression=compression)
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 21, in read_csv
+    return pd.read_csv(fh, delim_whitespace=True, na_values='.', **kwargs)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/site-packages/pandas/io/parsers.py", line 655, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/site-packages/pandas/io/parsers.py", line 405, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/site-packages/pandas/io/parsers.py", line 762, in __init__
+    self._make_engine(self.engine)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/site-packages/pandas/io/parsers.py", line 966, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/site-packages/pandas/io/parsers.py", line 1582, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 394, in pandas._libs.parsers.TextReader.__cinit__ (pandas/_libs/parsers.c:4209)
+  File "pandas/_libs/parsers.pyx", line 651, in pandas._libs.parsers.TextReader._setup_parser_source (pandas/_libs/parsers.c:7620)
+  File "/home/bnphan/miniforge3/envs/ldsc/lib/python2.7/gzip.py", line 94, in __init__
+    fileobj = self.myfileobj = __builtin__.open(filename, mode or 'rb')
+IOError: [Errno 2] No such file or directory: '/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.14.l2.ldscore.gz'

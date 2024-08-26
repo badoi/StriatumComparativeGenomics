@@ -1,0 +1,440 @@
+
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+Logging With ArchR!
+
+Start Time : 2024-03-25 21:10:27.288942
+
+------- ArchR Info
+
+ArchRThreads = 6
+ArchRGenome = Hg38
+
+------- System Info
+
+Computer OS = unix
+
+------- Session Info
+
+R version 4.3.1 (2023-06-16)
+Platform: x86_64-conda-linux-gnu (64-bit)
+Running under: CentOS Linux 7 (Core)
+
+Matrix products: default
+BLAS/LAPACK: /home/bnphan/mambaforge/lib/libopenblasp-r0.3.26.so;  LAPACK version 3.12.0
+
+Random number generation:
+ RNG:     L'Ecuyer-CMRG 
+ Normal:  Inversion 
+ Sample:  Rejection 
+ 
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: America/New_York
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats4    grid      stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] SingleCellExperiment_1.23.0 SeuratDisk_0.0.0.9020      
+ [3] Seurat_5.0.3                SeuratObject_5.0.1         
+ [5] sp_2.1-3                    here_1.0.1                 
+ [7] rhdf5_2.42.1                SummarizedExperiment_1.32.0
+ [9] Biobase_2.62.0              MatrixGenerics_1.14.0      
+[11] Rcpp_1.0.12                 Matrix_1.6-5               
+[13] GenomicRanges_1.54.1        GenomeInfoDb_1.38.1        
+[15] IRanges_2.36.0              S4Vectors_0.40.2           
+[17] BiocGenerics_0.48.1         matrixStats_1.2.0          
+[19] data.table_1.15.2           stringr_1.5.1              
+[21] plyr_1.8.9                  magrittr_2.0.3             
+[23] ggplot2_3.4.3               gtable_0.3.4               
+[25] gtools_3.9.4                gridExtra_2.3              
+[27] ArchR_1.0.2                 colorout_1.2-2             
+
+loaded via a namespace (and not attached):
+  [1] RcppAnnoy_0.0.22                  splines_4.3.1                    
+  [3] later_1.3.2                       pbdZMQ_0.3-11                    
+  [5] BiocIO_1.12.0                     bitops_1.0-7                     
+  [7] tibble_3.2.1                      polyclip_1.10-6                  
+  [9] XML_3.99-0.16.1                   fastDummies_1.7.3                
+ [11] lifecycle_1.0.4                   rprojroot_2.0.4                  
+ [13] globals_0.16.2                    lattice_0.22-5                   
+ [15] hdf5r_1.3.8                       MASS_7.3-60                      
+ [17] plotly_4.10.3                     yaml_2.3.8                       
+ [19] BSgenome.Hsapiens.UCSC.hg38_1.4.5 httpuv_1.6.14                    
+ [21] sctransform_0.4.1                 spam_2.10-0                      
+ [23] spatstat.sparse_3.0-2             reticulate_1.34.0                
+ [25] cowplot_1.1.1                     pbapply_1.7-2                    
+ [27] RColorBrewer_1.1-3                abind_1.4-5                      
+ [29] zlibbioc_1.48.0                   Rtsne_0.17                       
+ [31] purrr_1.0.2                       RCurl_1.98-1.14                  
+ [33] GenomeInfoDbData_1.2.11           ggrepel_0.9.5                    
+ [35] irlba_2.3.5.1                     listenv_0.9.1                    
+ [37] spatstat.utils_3.0-3              goftest_1.2-3                    
+ [39] RSpectra_0.16-1                   spatstat.random_3.2-1            
+ [41] fitdistrplus_1.1-11               parallelly_1.37.1                
+ [43] leiden_0.4.3                      codetools_0.2-19                 
+ [45] DelayedArray_0.28.0               tidyselect_1.2.0                 
+ [47] base64enc_0.1-3                   spatstat.explore_3.2-5           
+ [49] GenomicAlignments_1.38.0          jsonlite_1.8.8                   
+ [51] ellipsis_0.3.2                    progressr_0.14.0                 
+ [53] ggridges_0.5.4                    survival_3.5-8                   
+ [55] tools_4.3.1                       ica_1.0-3                        
+ [57] glue_1.7.0                        SparseArray_1.2.2                
+ [59] IRdisplay_1.1                     dplyr_1.1.4                      
+ [61] withr_3.0.0                       fastmap_1.1.1                    
+ [63] rhdf5filters_1.12.1               fansi_1.0.6                      
+ [65] digest_0.6.34                     R6_2.5.1                         
+ [67] mime_0.12                         colorspace_2.1-0                 
+ [69] scattermore_1.2                   tensor_1.5                       
+ [71] spatstat.data_3.0-1               utf8_1.2.4                       
+ [73] tidyr_1.3.1                       generics_0.1.3                   
+ [75] rtracklayer_1.62.0                httr_1.4.7                       
+ [77] htmlwidgets_1.6.4                 S4Arrays_1.2.0                   
+ [79] uwot_0.1.16                       pkgconfig_2.0.3                  
+ [81] lmtest_0.9-40                     XVector_0.42.0                   
+ [83] htmltools_0.5.7                   dotCall64_1.1-1                  
+ [85] scales_1.3.0                      png_0.1-8                        
+ [87] rjson_0.2.21                      reshape2_1.4.4                   
+ [89] uuid_1.2-0                        nlme_3.1-164                     
+ [91] repr_1.1.6                        zoo_1.8-12                       
+ [93] KernSmooth_2.23-22                parallel_4.3.1                   
+ [95] miniUI_0.1.1.1                    restfulr_0.0.15                  
+ [97] pillar_1.9.0                      vctrs_0.6.5                      
+ [99] RANN_2.6.1                        promises_1.2.1                   
+[101] xtable_1.8-4                      cluster_2.1.6                    
+[103] evaluate_0.23                     Rsamtools_2.18.0                 
+[105] cli_3.6.2                         compiler_4.3.1                   
+[107] rlang_1.1.3                       crayon_1.5.2                     
+[109] future.apply_1.11.1               stringi_1.8.3                    
+[111] BiocParallel_1.36.0               viridisLite_0.4.2                
+[113] deldir_1.0-9                      munsell_0.5.0                    
+[115] Biostrings_2.70.1                 lazyeval_0.2.2                   
+[117] spatstat.geom_3.2-7               IRkernel_1.3.2                   
+[119] RcppHNSW_0.6.0                    BSgenome_1.70.1                  
+[121] patchwork_1.2.0                   bit64_4.0.5                      
+[123] future_1.33.1                     Rhdf5lib_1.24.0                  
+[125] shiny_1.8.0                       ROCR_1.0-11                      
+[127] igraph_1.5.1                      bit_4.0.5                        
+
+
+------- Log Info
+
+
+2024-03-25 21:10:27.554556 : Input-Parameters, Class = list
+
+Input-Parameters$ArchRProj: length = 1
+
+Input-Parameters$embedding: length = 1
+[1] "UMAPH330"
+
+
+Input-Parameters$colorBy: length = 1
+[1] "cellColData"
+
+
+Input-Parameters$name: length = 3
+[1] "Sample"       "Brain.region" "ClustersX330"
+
+
+Input-Parameters$log2Norm: length = 0
+NULL
+
+
+Input-Parameters$imputeWeights: length = 0
+NULL
+
+
+Input-Parameters$pal: length = 0
+NULL
+
+
+Input-Parameters$size: length = 1
+[1] 0.1
+
+
+Input-Parameters$sampleCells: length = 0
+NULL
+
+
+Input-Parameters$highlightCells: length = 0
+NULL
+
+
+Input-Parameters$rastr: length = 1
+[1] TRUE
+
+
+Input-Parameters$quantCut: length = 2
+[1] 0.01 0.99
+
+
+Input-Parameters$discreteSet: length = 0
+NULL
+
+
+Input-Parameters$continuousSet: length = 0
+NULL
+
+
+Input-Parameters$randomize: length = 1
+[1] TRUE
+
+
+Input-Parameters$keepAxis: length = 1
+[1] FALSE
+
+
+Input-Parameters$baseSize: length = 1
+[1] 10
+
+
+Input-Parameters$plotAs: length = 0
+NULL
+
+
+Input-Parameters$threads: length = 1
+[1] 6
+
+
+Input-Parameters$logFile: length = 1
+[1] "ArchRLogs/ArchR-plotEmbedding-7b617280b29e-Date-2024-03-25_Time-21-10-25.990753.log"
+
+
+
+2024-03-25 21:10:27.654817 : 
+
+2024-03-25 21:10:27.660202 : Embedding data.frame, Class = data.frame
+Embedding data.frame: nRows = 9967, nCols = 2
+                                  HarmonyX330#UMAP_Dimension_1
+NAC.MM_551#GGGTTTACGCTAGCGTCATATG                    1.0519321
+NAC.MM_551#AGGTTATAGGTTGTCATGCGTG                    2.4601494
+NAC.MM_551#TTGACGTTGAAAAGCACTAGCG                    2.5015925
+NAC.MM_551#GGTTATGATGGCTAAGGATTAG                    2.0308312
+NAC.MM_551#GTAAACTAGCAACAGGCGGGTA                    0.5694301
+NAC.MM_551#AGCGATTGCCATGTCTAACGCC                    0.1747319
+                                  HarmonyX330#UMAP_Dimension_2
+NAC.MM_551#GGGTTTACGCTAGCGTCATATG                   -4.7490426
+NAC.MM_551#AGGTTATAGGTTGTCATGCGTG                    0.3230323
+NAC.MM_551#TTGACGTTGAAAAGCACTAGCG                   -1.5705301
+NAC.MM_551#GGTTATGATGGCTAAGGATTAG                    0.3680228
+NAC.MM_551#GTAAACTAGCAACAGGCGGGTA                    2.0151700
+NAC.MM_551#AGCGATTGCCATGTCTAACGCC                    0.6012410
+
+
+
+2024-03-25 21:10:28.962697 : 
+
+2024-03-25 21:10:29.138775 : ColorParams 1, Class = list
+
+ColorParams 1$color: length = 9967
+[1] "NAC.MM_551" "NAC.MM_551" "NAC.MM_551" "NAC.MM_551" "NAC.MM_551"
+[6] "NAC.MM_551"
+
+
+ColorParams 1$discrete: length = 1
+[1] TRUE
+
+
+ColorParams 1$continuousSet: length = 1
+[1] "solarExtra"
+
+
+ColorParams 1$discreteSet: length = 1
+[1] "stallion"
+
+
+ColorParams 1$title: length = 1
+[1] "UMAPH330 of HarmonyX330  colored by\ncolData :  Sample"
+
+
+
+2024-03-25 21:10:29.350006 : PlotParams-1, Class = list
+
+PlotParams-1$color: length = 9967
+[1] "NAC.MM_551" "NAC.MM_551" "NAC.MM_551" "NAC.MM_551" "NAC.MM_551"
+[6] "NAC.MM_551"
+
+
+PlotParams-1$discrete: length = 1
+[1] TRUE
+
+
+PlotParams-1$continuousSet: length = 1
+[1] "solarExtra"
+
+
+PlotParams-1$discreteSet: length = 1
+[1] "stallion"
+
+
+PlotParams-1$title: length = 1
+[1] "UMAPH330 of HarmonyX330  colored by\ncolData :  Sample"
+
+
+PlotParams-1$x: length = 9967
+[1] 1.0519321 2.4601494 2.5015925 2.0308312 0.5694301 0.1747319
+
+
+PlotParams-1$y: length = 9967
+[1] -4.7490426  0.3230323 -1.5705301  0.3680228  2.0151700  0.6012410
+
+
+PlotParams-1$baseSize: length = 1
+[1] 10
+
+
+PlotParams-1$xlabel: length = 1
+[1] "UMAP Dimension 1"
+
+
+PlotParams-1$ylabel: length = 1
+[1] "UMAP Dimension 2"
+
+
+PlotParams-1$rastr: length = 1
+[1] TRUE
+
+
+PlotParams-1$size: length = 1
+[1] 0.1
+
+
+PlotParams-1$randomize: length = 1
+[1] TRUE
+
+
+
+2024-03-25 21:10:29.835126 : PlotParams-2, Class = list
+
+PlotParams-2$color: length = 9967
+[1] "NAC" "NAC" "NAC" "NAC" "NAC" "NAC"
+
+
+PlotParams-2$discrete: length = 1
+[1] TRUE
+
+
+PlotParams-2$continuousSet: length = 1
+[1] "solarExtra"
+
+
+PlotParams-2$discreteSet: length = 1
+[1] "stallion"
+
+
+PlotParams-2$title: length = 1
+[1] "UMAPH330 of HarmonyX330  colored by\ncolData :  Brain.region"
+
+
+PlotParams-2$x: length = 9967
+[1] 1.0519321 2.4601494 2.5015925 2.0308312 0.5694301 0.1747319
+
+
+PlotParams-2$y: length = 9967
+[1] -4.7490426  0.3230323 -1.5705301  0.3680228  2.0151700  0.6012410
+
+
+PlotParams-2$baseSize: length = 1
+[1] 10
+
+
+PlotParams-2$xlabel: length = 1
+[1] "UMAP Dimension 1"
+
+
+PlotParams-2$ylabel: length = 1
+[1] "UMAP Dimension 2"
+
+
+PlotParams-2$rastr: length = 1
+[1] TRUE
+
+
+PlotParams-2$size: length = 1
+[1] 0.1
+
+
+PlotParams-2$randomize: length = 1
+[1] TRUE
+
+
+
+2024-03-25 21:10:30.041335 : PlotParams-3, Class = list
+
+PlotParams-3$color: length = 9967
+[1] "C1" "C4" "C1" "C5" "C4" "C2"
+
+
+PlotParams-3$discrete: length = 1
+[1] TRUE
+
+
+PlotParams-3$continuousSet: length = 1
+[1] "solarExtra"
+
+
+PlotParams-3$discreteSet: length = 1
+[1] "stallion"
+
+
+PlotParams-3$title: length = 1
+[1] "UMAPH330 of HarmonyX330  colored by\ncolData :  ClustersX330"
+
+
+PlotParams-3$x: length = 9967
+[1] 1.0519321 2.4601494 2.5015925 2.0308312 0.5694301 0.1747319
+
+
+PlotParams-3$y: length = 9967
+[1] -4.7490426  0.3230323 -1.5705301  0.3680228  2.0151700  0.6012410
+
+
+PlotParams-3$baseSize: length = 1
+[1] 10
+
+
+PlotParams-3$xlabel: length = 1
+[1] "UMAP Dimension 1"
+
+
+PlotParams-3$ylabel: length = 1
+[1] "UMAP Dimension 2"
+
+
+PlotParams-3$rastr: length = 1
+[1] TRUE
+
+
+PlotParams-3$size: length = 1
+[1] 0.1
+
+
+PlotParams-3$randomize: length = 1
+[1] TRUE
+
+
+
+------- Completed
+
+End Time : 2024-03-25 21:10:30.252957
+Elapsed Time Minutes = 0.0493668635686239
+Elapsed Time Hours = 0.00082302020655738
+
+-------
+
+
+

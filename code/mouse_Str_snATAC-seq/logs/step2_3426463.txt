@@ -1,0 +1,111 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+ArchR : Version 1.0.2
+For more information see our website : www.ArchRProject.com
+If you encounter a bug please report : https://github.com/GreenleafLab/ArchR/issues
+Loading Required Packages...
+	Loading Package : grid v4.2.2
+	Loading Package : gridExtra v2.3
+	Loading Package : gtools v3.9.4
+	Loading Package : gtable v0.3.1
+	Loading Package : ggplot2 v3.3.6
+	Loading Package : magrittr v2.0.3
+	Loading Package : plyr v1.8.8
+	Loading Package : stringr v1.5.0
+	Loading Package : data.table v1.14.6
+	Loading Package : matrixStats v0.63.0
+	Loading Package : S4Vectors v0.36.1
+	Loading Package : GenomicRanges v1.50.2
+	Loading Package : BiocGenerics v0.44.0
+	Loading Package : Matrix v1.5.3
+	Loading Package : Rcpp v1.0.9
+	Loading Package : SummarizedExperiment v1.28.0
+	Loading Package : rhdf5 v2.42.0
+here() starts at /projects/pfenninggroup/singleCell/BICCN_mouse_CATlas_snATAC-seq
+
+Attaching package: 'here'
+
+The following object is masked from 'package:plyr':
+
+    here
+
+Setting default number of Parallel threads to 8.
+Setting default genome to Mm10.
+Successfully loaded ArchRProject!
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+Checking Inputs...
+ArchR logging to : ArchRLogs/ArchR-addIterativeLSI-48fc2b8348ca-Date-2023-04-27_Time-14-03-52.log
+If there is an issue, please report to github with logFile!
+2023-04-27 14:03:53 : Computing Total Across All Features, 0.007 mins elapsed.
+2023-04-27 14:03:59 : Computing Top Features, 0.113 mins elapsed.
+###########
+2023-04-27 14:04:00 : Running LSI (1 of 4) on Top Features, 0.13 mins elapsed.
+###########
+2023-04-27 14:04:00 : Creating Partial Matrix, 0.134 mins elapsed.
+
+************************************************************
+2023-04-27 14:04:19 : ERROR Found in .LSIPartialMatrix for  
+LogFile = ArchRLogs/ArchR-addIterativeLSI-48fc2b8348ca-Date-2023-04-27_Time-14-03-52.log
+
+<simpleError in .getPartialMatrix(ArrowFiles = ArrowFiles, featureDF = featureDF,     useMatrix = useMatrix, cellNames = cellNames, doSampleCells = FALSE,     threads = threads, verbose = FALSE, logFile = logFile): Error not all cellNames found in partialMatrix>
+
+************************************************************
+
+Error in .logError(e, fn = ".LSIPartialMatrix", info = "", errorList = errorList,  : 
+  Exiting See Error Above
+Calls: addIterativeLSI ... tryCatchList -> tryCatchOne -> <Anonymous> -> .logError
+In addition: Warning message:
+In mccollect(jobs) : 4 parallel jobs did not deliver results
+Execution halted
+slurmstepd: error: Detected 4 oom-kill event(s) in step 3426463.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

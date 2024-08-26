@@ -1,0 +1,49 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2-cts /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/gwas/munged/Napping-Jansen_2019.sumstats.gz \
+--ref-ld-chr /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/baseline_v1.1/baseline_v1.1.EUR. \
+--out /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/enrichments/Human_Striatum_snATAC.Napping-Jansen_2019.EUR \
+--ref-ld-chr-cts /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/Human_Striatum_snATAC.EUR_hg38.ldcts \
+--w-ld-chr /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/weights/1000G.EUR.weights.hm3_noMHC. 
+
+Beginning analysis at Mon Jun 24 15:02:33 2024
+Reading summary statistics from /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/gwas/munged/Napping-Jansen_2019.sumstats.gz ...
+Read summary statistics for 1134065 SNPs.
+Reading reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/baseline_v1.1/baseline_v1.1.EUR.[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1198864 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/weights/1000G.EUR.weights.hm3_noMHC.[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1198864 SNPs.
+After merging with reference panel LD, 1124265 SNPs remain.
+After merging with regression SNP LD, 1124265 SNPs remain.
+Removed 0 SNPs with chi^2 > 386.577 (1124265 SNPs remain)
+Reading cts reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.Astro.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D1.D2H.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D1.Matrix.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D1.Striosome.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Matrix.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Striosome.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.INT.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.Microglia.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.Oligo.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.OPC.hg38.EUR.,/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.mergedReg2Map.EUR.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Results printed to /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/enrichments/Human_Striatum_snATAC.Napping-Jansen_2019.EUR.cell_type_results.txt
+Analysis finished at Mon Jun 24 15:14:45 2024
+Total time elapsed: 12.0m:12.58s

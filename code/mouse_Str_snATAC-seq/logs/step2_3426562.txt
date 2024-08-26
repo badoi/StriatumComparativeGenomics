@@ -1,0 +1,484 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+ArchR : Version 1.0.2
+For more information see our website : www.ArchRProject.com
+If you encounter a bug please report : https://github.com/GreenleafLab/ArchR/issues
+Loading Required Packages...
+	Loading Package : grid v4.2.2
+	Loading Package : gridExtra v2.3
+	Loading Package : gtools v3.9.4
+	Loading Package : gtable v0.3.1
+	Loading Package : ggplot2 v3.3.6
+	Loading Package : magrittr v2.0.3
+	Loading Package : plyr v1.8.8
+	Loading Package : stringr v1.5.0
+	Loading Package : data.table v1.14.6
+	Loading Package : matrixStats v0.63.0
+	Loading Package : S4Vectors v0.36.1
+	Loading Package : GenomicRanges v1.50.2
+	Loading Package : BiocGenerics v0.44.0
+	Loading Package : Matrix v1.5.3
+	Loading Package : Rcpp v1.0.9
+	Loading Package : SummarizedExperiment v1.28.0
+	Loading Package : rhdf5 v2.42.0
+here() starts at /projects/pfenninggroup/singleCell/BICCN_mouse_CATlas_snATAC-seq
+
+Attaching package: 'here'
+
+The following object is masked from 'package:plyr':
+
+    here
+
+Setting default number of Parallel threads to 8.
+Setting default genome to Mm10.
+Successfully loaded ArchRProject!
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+Checking Inputs...
+ArchR logging to : ArchRLogs/ArchR-addIterativeLSI-4f0dce7e3cba-Date-2023-04-27_Time-15-51-48.log
+If there is an issue, please report to github with logFile!
+2023-04-27 15:51:51 : Computing Total Across All Features, 0.011 mins elapsed.
+2023-04-27 15:51:59 : Computing Top Features, 0.15 mins elapsed.
+###########
+2023-04-27 15:52:00 : Running LSI (1 of 4) on Top Features, 0.169 mins elapsed.
+###########
+2023-04-27 15:52:01 : Creating Partial Matrix, 0.187 mins elapsed.
+2023-04-27 15:52:47 : Computing LSI, 0.944 mins elapsed.
+2023-04-27 15:54:40 : Identifying Clusters, 2.839 mins elapsed.
+2023-04-27 15:55:12 : Identified 12 Clusters, 3.363 mins elapsed.
+2023-04-27 15:55:12 : Creating Cluster Matrix on the total Group Features, 3.366 mins elapsed.
+Error in (function (x)  : attempt to apply non-function
+Error in (function (x)  : attempt to apply non-function
+Error in (function (x)  : attempt to apply non-function
+2023-04-27 15:55:50 : Computing Variable Features, 3.999 mins elapsed.
+###########
+2023-04-27 15:55:50 : Running LSI (2 of 4) on Variable Features, 4.005 mins elapsed.
+###########
+2023-04-27 15:55:50 : Creating Partial Matrix, 4.006 mins elapsed.
+2023-04-27 15:56:36 : Computing LSI, 4.763 mins elapsed.
+2023-04-27 15:58:29 : Identifying Clusters, 6.654 mins elapsed.
+2023-04-27 15:58:57 : Identified 12 Clusters, 7.111 mins elapsed.
+2023-04-27 15:58:58 : Creating Cluster Matrix on the total Group Features, 7.132 mins elapsed.
+2023-04-27 15:59:33 : Computing Variable Features, 7.711 mins elapsed.
+###########
+2023-04-27 15:59:33 : Running LSI (3 of 4) on Variable Features, 7.717 mins elapsed.
+###########
+2023-04-27 15:59:33 : Creating Partial Matrix, 7.717 mins elapsed.
+2023-04-27 16:00:14 : Computing LSI, 8.392 mins elapsed.
+2023-04-27 16:02:04 : Identifying Clusters, 10.236 mins elapsed.
+2023-04-27 16:02:30 : Identified 12 Clusters, 10.668 mins elapsed.
+2023-04-27 16:02:31 : Creating Cluster Matrix on the total Group Features, 10.688 mins elapsed.
+2023-04-27 16:03:08 : Computing Variable Features, 11.297 mins elapsed.
+###########
+2023-04-27 16:03:08 : Running LSI (4 of 4) on Variable Features, 11.303 mins elapsed.
+###########
+2023-04-27 16:03:08 : Creating Partial Matrix, 11.304 mins elapsed.
+2023-04-27 16:03:45 : Computing LSI, 11.923 mins elapsed.
+2023-04-27 16:05:41 : Finished Running IterativeLSI, 13.845 mins elapsed.
+Saving ArchRProject...
+Loading ArchRProject...
+Successfully loaded ArchRProject!
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 3 iterations
+ArchR logging to : ArchRLogs/ArchR-addClusters-4f0dc49cfe253-Date-2023-04-27_Time-16-06-53.log
+If there is an issue, please report to github with logFile!
+2023-04-27 16:06:54 : Running Seurats FindClusters (Stuart et al. Cell 2019), 0.003 mins elapsed.
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 24220
+Number of edges: 780958
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9016
+Number of communities: 20
+Elapsed time: 4 seconds
+2023-04-27 16:07:20 : Testing Biased Clusters, 0.435 mins elapsed.
+2023-04-27 16:07:20 : Testing Outlier Clusters, 0.451 mins elapsed.
+2023-04-27 16:07:20 : Assigning Cluster Names to 20 Clusters, 0.451 mins elapsed.
+2023-04-27 16:07:21 : Finished addClusters, 0.454 mins elapsed.
+16:07:21 UMAP embedding parameters a = 0.583 b = 1.334
+16:07:21 Read 24220 rows and found 30 numeric columns
+16:07:21 Using Annoy for neighbor search, n_neighbors = 30
+16:07:21 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+16:07:25 Writing NN index file to temp file /tmp/RtmpM0Dnb6/file4f0dc68daf336
+16:07:25 Searching Annoy index using 16 threads, search_k = 3000
+16:07:26 Annoy recall = 100%
+16:07:28 Commencing smooth kNN distance calibration using 16 threads with target n_neighbors = 30
+16:07:32 Initializing from normalized Laplacian + noise (using irlba)
+16:07:34 Commencing optimization for 200 epochs, with 1023582 positive edges
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+16:08:11 Optimization finished
+16:08:11 Creating temp model dir /tmp/RtmpM0Dnb6/dir4f0dc4516cc09
+16:08:11 Creating dir /tmp/RtmpM0Dnb6/dir4f0dc4516cc09
+16:08:13 Changing to /tmp/RtmpM0Dnb6/dir4f0dc4516cc09
+16:08:13 Creating /projects/pfenninggroup/singleCell/BICCN_mouse_CATlas_snATAC-seq/data/tidy_data/ArchRProjects/BICCN_mouse_NAc_snATAC/Embeddings/Save-Uwot-UMAP-Params-HarmonyX500-4f0dc25c545ee-Date-2023-04-27_Time-16-08-11.tar
+ArchR logging to : ArchRLogs/ArchR-addImputeWeights-4f0dc76e86b3a-Date-2023-04-27_Time-16-08-13.log
+If there is an issue, please report to github with logFile!
+2023-04-27 16:08:14 : Computing Impute Weights Using Magic (Cell 2018), 0 mins elapsed.
+Checking Inputs...
+ArchR logging to : ArchRLogs/ArchR-addIterativeLSI-4f0dc3548c476-Date-2023-04-27_Time-16-08-43.log
+If there is an issue, please report to github with logFile!
+2023-04-27 16:08:45 : Computing Total Across All Features, 0.012 mins elapsed.
+2023-04-27 16:08:52 : Computing Top Features, 0.144 mins elapsed.
+###########
+2023-04-27 16:08:55 : Running LSI (1 of 4) on Top Features, 0.184 mins elapsed.
+###########
+2023-04-27 16:08:56 : Creating Partial Matrix, 0.206 mins elapsed.
+2023-04-27 16:09:36 : Computing LSI, 0.862 mins elapsed.
+2023-04-27 16:11:55 : Identifying Clusters, 3.185 mins elapsed.
+2023-04-27 16:12:21 : Identified 12 Clusters, 3.612 mins elapsed.
+2023-04-27 16:12:21 : Creating Cluster Matrix on the total Group Features, 3.613 mins elapsed.
+2023-04-27 16:12:59 : Computing Variable Features, 4.25 mins elapsed.
+###########
+2023-04-27 16:13:00 : Running LSI (2 of 4) on Variable Features, 4.27 mins elapsed.
+###########
+2023-04-27 16:13:00 : Creating Partial Matrix, 4.271 mins elapsed.
+2023-04-27 16:13:44 : Computing LSI, 5.002 mins elapsed.
+2023-04-27 16:15:33 : Identifying Clusters, 6.824 mins elapsed.
+2023-04-27 16:15:59 : Identified 12 Clusters, 7.247 mins elapsed.
+2023-04-27 16:16:00 : Creating Cluster Matrix on the total Group Features, 7.269 mins elapsed.
+2023-04-27 16:16:39 : Computing Variable Features, 7.914 mins elapsed.
+###########
+2023-04-27 16:16:39 : Running LSI (3 of 4) on Variable Features, 7.92 mins elapsed.
+###########
+2023-04-27 16:16:39 : Creating Partial Matrix, 7.921 mins elapsed.
+2023-04-27 16:17:24 : Computing LSI, 8.664 mins elapsed.
+2023-04-27 16:19:15 : Identifying Clusters, 10.516 mins elapsed.
+2023-04-27 16:19:39 : Identified 12 Clusters, 10.926 mins elapsed.
+2023-04-27 16:19:41 : Creating Cluster Matrix on the total Group Features, 10.946 mins elapsed.
+2023-04-27 16:20:25 : Computing Variable Features, 11.69 mins elapsed.
+###########
+2023-04-27 16:20:26 : Running LSI (4 of 4) on Variable Features, 11.71 mins elapsed.
+###########
+2023-04-27 16:20:26 : Creating Partial Matrix, 11.711 mins elapsed.
+2023-04-27 16:21:10 : Computing LSI, 12.429 mins elapsed.
+2023-04-27 16:22:57 : Finished Running IterativeLSI, 14.228 mins elapsed.
+Saving ArchRProject...
+Loading ArchRProject...
+Successfully loaded ArchRProject!
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 3 iterations
+ArchR logging to : ArchRLogs/ArchR-addClusters-4f0dc7a4d409a-Date-2023-04-27_Time-16-24-19.log
+If there is an issue, please report to github with logFile!
+2023-04-27 16:24:19 : Running Seurats FindClusters (Stuart et al. Cell 2019), 0.002 mins elapsed.
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 24220
+Number of edges: 780958
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9016
+Number of communities: 20
+Elapsed time: 5 seconds
+2023-04-27 16:24:47 : Testing Biased Clusters, 0.457 mins elapsed.
+2023-04-27 16:24:47 : Testing Outlier Clusters, 0.462 mins elapsed.
+2023-04-27 16:24:47 : Assigning Cluster Names to 20 Clusters, 0.462 mins elapsed.
+2023-04-27 16:24:47 : Finished addClusters, 0.463 mins elapsed.
+16:24:47 UMAP embedding parameters a = 0.583 b = 1.334
+16:24:47 Read 24220 rows and found 30 numeric columns
+16:24:47 Using Annoy for neighbor search, n_neighbors = 30
+16:24:47 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+16:24:49 Writing NN index file to temp file /tmp/RtmpM0Dnb6/file4f0dc38e4d49e
+16:24:49 Searching Annoy index using 16 threads, search_k = 3000
+16:24:51 Annoy recall = 100%
+16:24:52 Commencing smooth kNN distance calibration using 16 threads with target n_neighbors = 30
+16:24:54 Initializing from normalized Laplacian + noise (using irlba)
+16:24:56 Commencing optimization for 200 epochs, with 1023582 positive edges
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+16:25:34 Optimization finished
+16:25:34 Creating temp model dir /tmp/RtmpM0Dnb6/dir4f0dc7804f9e2
+16:25:34 Creating dir /tmp/RtmpM0Dnb6/dir4f0dc7804f9e2
+16:25:37 Changing to /tmp/RtmpM0Dnb6/dir4f0dc7804f9e2
+16:25:37 Creating /projects/pfenninggroup/singleCell/BICCN_mouse_CATlas_snATAC-seq/data/tidy_data/ArchRProjects/BICCN_mouse_NAc_snATAC/Embeddings/Save-Uwot-UMAP-Params-HarmonyX600-4f0dc577343f9-Date-2023-04-27_Time-16-25-34.tar
+ArchR logging to : ArchRLogs/ArchR-addImputeWeights-4f0dc2633aa20-Date-2023-04-27_Time-16-25-38.log
+If there is an issue, please report to github with logFile!
+2023-04-27 16:25:39 : Computing Impute Weights Using Magic (Cell 2018), 0 mins elapsed.
+Checking Inputs...
+ArchR logging to : ArchRLogs/ArchR-addIterativeLSI-4f0dc434f9c5e-Date-2023-04-27_Time-16-26-10.log
+If there is an issue, please report to github with logFile!
+2023-04-27 16:26:12 : Computing Total Across All Features, 0.021 mins elapsed.
+2023-04-27 16:26:18 : Computing Top Features, 0.118 mins elapsed.
+###########
+2023-04-27 16:26:21 : Running LSI (1 of 4) on Top Features, 0.171 mins elapsed.
+###########
+2023-04-27 16:26:22 : Creating Partial Matrix, 0.182 mins elapsed.
+2023-04-27 16:27:08 : Computing LSI, 0.962 mins elapsed.
+2023-04-27 16:29:44 : Identifying Clusters, 3.56 mins elapsed.
+2023-04-27 16:30:09 : Identified 14 Clusters, 3.978 mins elapsed.
+2023-04-27 16:30:09 : Creating Cluster Matrix on the total Group Features, 3.978 mins elapsed.
+2023-04-27 16:30:52 : Computing Variable Features, 4.687 mins elapsed.
+###########
+2023-04-27 16:30:52 : Running LSI (2 of 4) on Variable Features, 4.694 mins elapsed.
+###########
+2023-04-27 16:30:52 : Creating Partial Matrix, 4.695 mins elapsed.
+2023-04-27 16:31:34 : Computing LSI, 5.392 mins elapsed.
+2023-04-27 16:33:26 : Identifying Clusters, 7.255 mins elapsed.
+2023-04-27 16:33:51 : Identified 12 Clusters, 7.675 mins elapsed.
+2023-04-27 16:33:52 : Creating Cluster Matrix on the total Group Features, 7.695 mins elapsed.
+2023-04-27 16:34:40 : Computing Variable Features, 8.496 mins elapsed.
+###########
+2023-04-27 16:34:41 : Running LSI (3 of 4) on Variable Features, 8.502 mins elapsed.
+###########
+2023-04-27 16:34:41 : Creating Partial Matrix, 8.503 mins elapsed.
+2023-04-27 16:35:23 : Computing LSI, 9.205 mins elapsed.
+2023-04-27 16:37:18 : Identifying Clusters, 11.126 mins elapsed.
+2023-04-27 16:37:44 : Identified 12 Clusters, 11.56 mins elapsed.
+2023-04-27 16:37:46 : Creating Cluster Matrix on the total Group Features, 11.582 mins elapsed.
+2023-04-27 16:38:20 : Computing Variable Features, 12.162 mins elapsed.
+###########
+2023-04-27 16:38:21 : Running LSI (4 of 4) on Variable Features, 12.169 mins elapsed.
+###########
+2023-04-27 16:38:21 : Creating Partial Matrix, 12.17 mins elapsed.
+2023-04-27 16:39:08 : Computing LSI, 12.956 mins elapsed.
+2023-04-27 16:40:59 : Finished Running IterativeLSI, 14.799 mins elapsed.
+Saving ArchRProject...
+Loading ArchRProject...
+Successfully loaded ArchRProject!
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 3 iterations
+ArchR logging to : ArchRLogs/ArchR-addClusters-4f0dc3515c374-Date-2023-04-27_Time-16-42-29.log
+If there is an issue, please report to github with logFile!
+2023-04-27 16:42:29 : Running Seurats FindClusters (Stuart et al. Cell 2019), 0.002 mins elapsed.
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 24220
+Number of edges: 780958
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9016
+Number of communities: 20
+Elapsed time: 5 seconds
+2023-04-27 16:42:54 : Testing Biased Clusters, 0.409 mins elapsed.
+2023-04-27 16:42:54 : Testing Outlier Clusters, 0.411 mins elapsed.
+2023-04-27 16:42:54 : Assigning Cluster Names to 20 Clusters, 0.411 mins elapsed.
+2023-04-27 16:42:54 : Finished addClusters, 0.413 mins elapsed.
+16:42:54 UMAP embedding parameters a = 0.583 b = 1.334
+16:42:54 Read 24220 rows and found 30 numeric columns
+16:42:54 Using Annoy for neighbor search, n_neighbors = 30
+16:42:54 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+16:42:57 Writing NN index file to temp file /tmp/RtmpM0Dnb6/file4f0dc47762b9c
+16:42:57 Searching Annoy index using 16 threads, search_k = 3000
+16:42:59 Annoy recall = 100%
+16:43:00 Commencing smooth kNN distance calibration using 16 threads with target n_neighbors = 30
+16:43:01 Initializing from normalized Laplacian + noise (using irlba)
+16:43:03 Commencing optimization for 200 epochs, with 1023582 positive edges
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+16:43:40 Optimization finished
+16:43:41 Creating temp model dir /tmp/RtmpM0Dnb6/dir4f0dc7c2d491e
+16:43:41 Creating dir /tmp/RtmpM0Dnb6/dir4f0dc7c2d491e
+16:43:43 Changing to /tmp/RtmpM0Dnb6/dir4f0dc7c2d491e
+16:43:43 Creating /projects/pfenninggroup/singleCell/BICCN_mouse_CATlas_snATAC-seq/data/tidy_data/ArchRProjects/BICCN_mouse_NAc_snATAC/Embeddings/Save-Uwot-UMAP-Params-HarmonyX700-4f0dc1c09cbdd-Date-2023-04-27_Time-16-43-41.tar
+ArchR logging to : ArchRLogs/ArchR-addImputeWeights-4f0dc79e6ab5c-Date-2023-04-27_Time-16-43-45.log
+If there is an issue, please report to github with logFile!
+2023-04-27 16:43:46 : Computing Impute Weights Using Magic (Cell 2018), 0 mins elapsed.
+Saving ArchRProject...
+Loading ArchRProject...
+Successfully loaded ArchRProject!
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    

@@ -1,0 +1,54 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2-cts /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/gwas/munged/OUD_MTAG-Deak_2022.sumstats.gz \
+--ref-ld-chr /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/1000G_ALL_Phase3_hg38_files/baseline_v1.1/baseline_v1.1.EUR. \
+--out /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/enrichments/Human_Striatum_snATAC.OUD_MTAG-Deak_2022.EUR \
+--ref-ld-chr-cts /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/Human_Striatum_snATAC.EUR_hg38.ldcts \
+--w-ld-chr /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/1000G_ALL_Phase3_hg38_files/weights/1000G.EUR.weights.hm3_noMHC. 
+
+Beginning analysis at Mon Jun 24 14:15:51 2024
+Reading summary statistics from /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/gwas/munged/OUD_MTAG-Deak_2022.sumstats.gz ...
+Read summary statistics for 478642 SNPs.
+Reading reference panel LD Score from /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/1000G_ALL_Phase3_hg38_files/baseline_v1.1/baseline_v1.1.EUR.[1-22] ... (ldscore_fromlist)
+Traceback (most recent call last):
+  File "/home/bnphan/src/ldsc/ldsc.py", line 646, in <module>
+    sumstats.cell_type_specific(args, log)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 263, in cell_type_specific
+    _read_ld_sumstats(args, log, args.h2_cts)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 152, in _read_chr_split_files
+    out = parsefunc(_splitp(chr_arg), _N_CHR, **kwargs)
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 103, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 147, in ldscore
+    first_fh = sub_chr(fh, chrs[0]) + suffix
+IndexError: list index out of range
+
+Analysis finished at Mon Jun 24 14:15:53 2024
+Total time elapsed: 2.16s
+Traceback (most recent call last):
+  File "/home/bnphan/src/ldsc/ldsc.py", line 646, in <module>
+    sumstats.cell_type_specific(args, log)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 263, in cell_type_specific
+    _read_ld_sumstats(args, log, args.h2_cts)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/home/bnphan/src/ldsc/ldscore/sumstats.py", line 152, in _read_chr_split_files
+    out = parsefunc(_splitp(chr_arg), _N_CHR, **kwargs)
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 103, in ldscore_fromlist
+    y = ldscore(fh, num)
+  File "/home/bnphan/src/ldsc/ldscore/parse.py", line 147, in ldscore
+    first_fh = sub_chr(fh, chrs[0]) + suffix
+IndexError: list index out of range

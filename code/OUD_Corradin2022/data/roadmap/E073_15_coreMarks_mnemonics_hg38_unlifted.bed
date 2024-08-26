@@ -1,0 +1,1056 @@
+#Partially deleted in new
+chr10	0	113000	15_Quies
+#Partially deleted in new
+chr10	1281200	1282600	1_TssA
+#Split in new
+chr10	17760800	18258000	15_Quies
+#Partially deleted in new
+chr10	38818800	38819200	9_Het
+#Deleted in new
+chr10	38819200	38868600	15_Quies
+#Partially deleted in new
+chr10	38868600	38869000	9_Het
+#Deleted in new
+chr10	39155000	39155200	9_Het
+#Deleted in new
+chr10	39155200	42354800	15_Quies
+#Partially deleted in new
+chr10	42354800	42355000	9_Het
+#Partially deleted in new
+chr10	42545000	42596400	15_Quies
+#Deleted in new
+chr10	42596400	42596600	9_Het
+#Split in new
+chr10	42596600	42598600	8_ZNF/Rpts
+#Split in new
+chr10	46282600	46951200	15_Quies
+#Split in new
+chr10	47009400	47026800	14_ReprPCWk
+#Split in new
+chr10	47054400	47063000	14_ReprPCWk
+#Split in new
+chr10	47151800	47585200	15_Quies
+#Split in new
+chr10	47701600	48303400	15_Quies
+#Split in new
+chr10	48662800	49390600	15_Quies
+#Split in new
+chr10	51053000	51370800	15_Quies
+#Split in new
+chr10	51371200	51488400	15_Quies
+#Split in new
+chr10	51624000	51784600	15_Quies
+#Partially deleted in new
+chr10	125869000	125919200	15_Quies
+#Deleted in new
+chr10	125919200	125919400	9_Het
+#Partially deleted in new
+chr10	125919400	125919800	8_ZNF/Rpts
+#Partially deleted in new
+chr10	128609200	128617000	5_TxWk
+#Partially deleted in new
+chr10	128617000	128767400	15_Quies
+#Partially deleted in new
+chr10	133373800	133441400	15_Quies
+#Partially deleted in new
+chr10	133668200	133734200	15_Quies
+#Partially deleted in new
+chr10	135501600	135534600	15_Quies
+#Partially deleted in new
+chr11	0	192000	15_Quies
+#Partially deleted in new
+chr11	1160000	1211200	15_Quies
+#Partially deleted in new
+chr11	1211200	1212800	14_ReprPCWk
+#Split in new
+chr11	50779200	50783400	9_Het
+#Deleted in new
+chr11	50783400	50783600	8_ZNF/Rpts
+#Deleted in new
+chr11	50783600	50784000	9_Het
+#Partially deleted in new
+chr11	50784000	51190800	15_Quies
+#Split in new
+chr11	51190800	51204400	9_Het
+#Split in new
+chr11	51593600	54796000	15_Quies
+#Partially deleted in new
+chr11	69085200	69154400	15_Quies
+#Partially deleted in new
+chr11	69724600	69726200	14_ReprPCWk
+#Deleted in new
+chr11	69726200	69774200	15_Quies
+#Split in new
+chr11	87546400	87864600	15_Quies
+#Partially deleted in new
+chr11	96279600	96625800	15_Quies
+#Partially deleted in new
+chr11	134933200	135006400	15_Quies
+#Partially deleted in new
+chr12	0	64400	15_Quies
+#Split in new
+chr12	95600	157000	15_Quies
+#Partially deleted in new
+chr12	7188600	7238800	15_Quies
+#Partially deleted in new
+chr12	7238800	7240400	5_TxWk
+#Partially deleted in new
+chr12	34855800	37991400	15_Quies
+#Partially deleted in new
+chr12	109373000	109426800	15_Quies
+#Split in new
+chr12	121962400	121968800	5_TxWk
+#Partially deleted in new
+chr12	122529800	122581000	15_Quies
+#Partially deleted in new
+chr12	132704600	132806400	15_Quies
+#Partially deleted in new
+chr12	132806400	132808000	14_ReprPCWk
+#Split in new
+chr12	132808400	132813600	14_ReprPCWk
+#Split in new
+chr12	132813600	132837200	5_TxWk
+#Partially deleted in new
+chr12	133821400	133851800	15_Quies
+#Partially deleted in new
+chr13	0	19171000	15_Quies
+#Partially deleted in new
+chr13	86512400	86927600	15_Quies
+#Partially deleted in new
+chr13	112353200	112505200	15_Quies
+#Partially deleted in new
+chr13	114324600	114426600	15_Quies
+#Partially deleted in new
+chr13	114638800	114740200	15_Quies
+#Partially deleted in new
+chr13	115096600	115169800	15_Quies
+#Deleted in new
+chr14	0	18999800	15_Quies
+#Partially deleted in new
+chr14	18999800	19000800	9_Het
+#Split in new
+chr14	19616800	19785600	15_Quies
+#Split in new
+chr14	19815600	19818800	9_Het
+#Split in new
+chr14	19819800	19825400	14_ReprPCWk
+#Partially deleted in new
+chr14	49488200	49490400	14_ReprPCWk
+#Split in new
+chr14	106474000	106483800	14_ReprPCWk
+#Split in new
+chr14	106484400	106488800	14_ReprPCWk
+#Split in new
+chr14	106527200	106572200	15_Quies
+#Split in new
+chr14	106798200	106808000	13_ReprPC
+#Split in new
+chr14	106808000	106810000	14_ReprPCWk
+#Partially deleted in new
+chr14	107287600	107349400	15_Quies
+#Deleted in new
+chr15	0	19999800	15_Quies
+#Partially deleted in new
+chr15	19999800	20001800	9_Het
+#Partially deleted in new
+chr15	20882000	21902000	15_Quies
+#Split in new
+chr15	22096600	22314600	15_Quies
+#Split in new
+chr15	22562800	22691400	15_Quies
+#Split in new
+chr15	22693400	22777000	15_Quies
+#Split in new
+chr15	23301400	23482000	15_Quies
+#Split in new
+chr15	23482400	23623200	15_Quies
+#Partially deleted in new
+chr15	29159000	29210000	15_Quies
+#Split in new
+chr15	82556000	83212600	15_Quies
+#Split in new
+chr15	84976600	85113000	15_Quies
+#Partially deleted in new
+chr15	102506400	102531200	15_Quies
+#Partially deleted in new
+chr16	0	60200	15_Quies
+#Partially deleted in new
+chr16	8632000	8689600	15_Quies
+#Partially deleted in new
+chr16	34023000	34023200	9_Het
+#Partially deleted in new
+chr16	34023200	34176200	15_Quies
+#Partially deleted in new
+chr16	35285800	46385600	15_Quies
+#Deleted in new
+chr16	46385600	46385800	9_Het
+#Split in new
+chr16	46385800	46386800	8_ZNF/Rpts
+#Split in new
+chr16	46386800	46388400	9_Het
+#Split in new
+chr16	46388400	46393400	8_ZNF/Rpts
+#Split in new
+chr16	46393400	46394200	5_TxWk
+#Split in new
+chr16	46394200	46395600	8_ZNF/Rpts
+#Split in new
+chr16	46395600	46396400	5_TxWk
+#Partially deleted in new
+chr16	46396400	46397000	8_ZNF/Rpts
+#Split in new
+chr16	46397000	46398600	5_TxWk
+#Split in new
+chr16	46398600	46399000	8_ZNF/Rpts
+#Split in new
+chr16	46399000	46400800	9_Het
+#Split in new
+chr16	46400800	46402000	8_ZNF/Rpts
+#Split in new
+chr16	46402000	46403200	5_TxWk
+#Split in new
+chr16	46403200	46404000	8_ZNF/Rpts
+#Split in new
+chr16	46404000	46404800	5_TxWk
+#Split in new
+chr16	46404800	46405200	8_ZNF/Rpts
+#Split in new
+chr16	46405200	46406400	9_Het
+#Partially deleted in new
+chr16	46406400	46406800	8_ZNF/Rpts
+#Split in new
+chr16	46406800	46407600	5_TxWk
+#Partially deleted in new
+chr16	46407600	46407800	8_ZNF/Rpts
+#Split in new
+chr16	46407800	46409000	5_TxWk
+#Split in new
+chr16	46409000	46410400	8_ZNF/Rpts
+#Split in new
+chr16	46410400	46413800	9_Het
+#Partially deleted in new
+chr16	46413800	46414200	8_ZNF/Rpts
+#Split in new
+chr16	46414200	46415400	5_TxWk
+#Partially deleted in new
+chr16	88355200	88441600	15_Quies
+#Partially deleted in new
+chr16	90149200	90354600	15_Quies
+#Partially deleted in new
+chr17	289800	414000	15_Quies
+#Split in new
+chr17	1020000	1020400	4_Tx
+#Split in new
+chr17	1020400	1022600	5_TxWk
+#Split in new
+chr17	1023400	1025800	5_TxWk
+#Split in new
+chr17	1054600	1057400	5_TxWk
+#Split in new
+chr17	21518800	21539800	15_Quies
+#Split in new
+chr17	21539800	21548400	14_ReprPCWk
+#Split in new
+chr17	21553800	21555800	14_ReprPCWk
+#Split in new
+chr17	21555800	21557000	13_ReprPC
+#Split in new
+chr17	21557000	21558200	14_ReprPCWk
+#Split in new
+chr17	21558200	21562000	9_Het
+#Split in new
+chr17	21562000	21694400	15_Quies
+#Partially deleted in new
+chr17	22262800	25262800	15_Quies
+#Deleted in new
+chr17	25262800	25263000	9_Het
+#Split in new
+chr17	34482600	34816000	15_Quies
+#Split in new
+chr17	34927000	34935200	5_TxWk
+#Partially deleted in new
+chr17	35013800	35014000	10_TssBiv
+#Split in new
+chr17	35730600	35764800	15_Quies
+#Partially deleted in new
+chr17	62405000	62474200	15_Quies
+#Split in new
+chr17	77545800	77632400	15_Quies
+#Partially deleted in new
+chr17	79701400	79710000	14_ReprPCWk
+#Deleted in new
+chr17	79710000	79757600	15_Quies
+#Partially deleted in new
+chr17	79757600	79759200	14_ReprPCWk
+#Split in new
+chr17	81057600	81059000	14_ReprPCWk
+#Partially deleted in new
+chr17	81059400	81059800	12_EnhBiv
+#Partially deleted in new
+chr18	0	10400	15_Quies
+#Partially deleted in new
+chr18	15410800	18510800	15_Quies
+#Partially deleted in new
+chr18	18510800	18511000	9_Het
+#Partially deleted in new
+chr18	51969600	52274800	15_Quies
+#Partially deleted in new
+chr18	72282600	72334800	15_Quies
+#Partially deleted in new
+chr18	75719800	75774400	15_Quies
+#Split in new
+chr18	78008000	78077200	15_Quies
+#Partially deleted in new
+chr19	0	266600	15_Quies
+#Split in new
+chr19	7295400	7396200	15_Quies
+#Partially deleted in new
+chr19	7396200	7396400	9_Het
+#Partially deleted in new
+chr19	8677200	8737400	15_Quies
+#Partially deleted in new
+chr19	11535000	11537200	14_ReprPCWk
+#Split in new
+chr19	20478800	20605200	15_Quies
+#Partially deleted in new
+chr19	24620000	27731600	15_Quies
+#Partially deleted in new
+chr19	27731600	27731800	9_Het
+#Split in new
+chr19	40372600	40420800	15_Quies
+#Split in new
+chr19	54599600	54600200	1_TssA
+#Split in new
+chr19	54635600	54639600	5_TxWk
+#Split in new
+chr19	54684400	54687000	5_TxWk
+#Split in new
+chr19	54722600	54726800	5_TxWk
+#Split in new
+chr19	54798400	54822800	14_ReprPCWk
+#Split in new
+chr19	55201800	55210800	15_Quies
+#Partially deleted in new
+chr19	59098400	59128800	15_Quies
+#Split in new
+chr1	0	569600	15_Quies
+#Split in new
+chr1	1582600	1588200	4_Tx
+#Partially deleted in new
+chr1	1589600	1589800	5_TxWk
+#Partially deleted in new
+chr1	2633600	2683000	15_Quies
+#Partially deleted in new
+chr1	2683000	2689000	14_ReprPCWk
+#Partially deleted in new
+chr1	3844400	3995200	15_Quies
+#Split in new
+chr1	12917400	13780400	15_Quies
+#Partially deleted in new
+chr1	17123600	17199200	15_Quies
+#Partially deleted in new
+chr1	29875600	29878600	14_ReprPCWk
+#Deleted in new
+chr1	29878600	30027000	15_Quies
+#Partially deleted in new
+chr1	30027000	30031800	14_ReprPCWk
+#Split in new
+chr1	103575200	104067200	15_Quies
+#Split in new
+chr1	120612400	120834800	15_Quies
+#Split in new
+chr1	120906800	121116000	15_Quies
+#Partially deleted in new
+chr1	121485400	142535200	15_Quies
+#Deleted in new
+chr1	142535200	142535400	9_Het
+#Split in new
+chr1	142725000	142782000	15_Quies
+#Split in new
+chr1	142967400	143131000	15_Quies
+#Split in new
+chr1	143138400	143155800	15_Quies
+#Split in new
+chr1	143155800	143158200	9_Het
+#Split in new
+chr1	143158200	143158800	15_Quies
+#Split in new
+chr1	143188800	143228600	15_Quies
+#Split in new
+chr1	143228800	143248600	15_Quies
+#Split in new
+chr1	143248600	143252800	14_ReprPCWk
+#Split in new
+chr1	143271400	143275400	14_ReprPCWk
+#Split in new
+chr1	143284000	143422200	15_Quies
+#Split in new
+chr1	143541200	143743000	15_Quies
+#Split in new
+chr1	143743000	143744600	1_TssA
+#Split in new
+chr1	143744600	143913400	15_Quies
+#Split in new
+chr1	143917000	144005400	15_Quies
+#Split in new
+chr1	144067400	144519200	15_Quies
+#Split in new
+chr1	144519200	144521600	1_TssA
+#Partially deleted in new
+chr1	144533600	144533800	10_TssBiv
+#Split in new
+chr1	144552200	144593200	15_Quies
+#Split in new
+chr1	144593200	144594600	1_TssA
+#Split in new
+chr1	144594600	144598600	5_TxWk
+#Split in new
+chr1	144615600	144620800	5_TxWk
+#Split in new
+chr1	144620800	144687800	15_Quies
+#Split in new
+chr1	144710000	144811400	15_Quies
+#Split in new
+chr1	144860400	144861800	5_TxWk
+#Partially deleted in new
+chr1	145091800	145092000	2_TssAFlnk
+#Split in new
+chr1	145092600	145093000	2_TssAFlnk
+#Split in new
+chr1	145097000	145097400	2_TssAFlnk
+#Split in new
+chr1	145324000	145381000	15_Quies
+#Split in new
+chr1	145827200	146344200	15_Quies
+#Split in new
+chr1	146392800	146494600	15_Quies
+#Partially deleted in new
+chr1	147124400	147126000	5_TxWk
+#Split in new
+chr1	147931800	147932200	1_TssA
+#Split in new
+chr1	148001200	148008600	5_TxWk
+#Split in new
+chr1	148008600	148010400	4_Tx
+#Split in new
+chr1	148011200	148012600	4_Tx
+#Split in new
+chr1	148023400	148176200	15_Quies
+#Split in new
+chr1	148176200	148176800	1_TssA
+#Split in new
+chr1	148176800	148240800	15_Quies
+#Partially deleted in new
+chr1	148240800	148242000	1_TssA
+#Split in new
+chr1	148242000	148247400	15_Quies
+#Split in new
+chr1	148247400	148248400	1_TssA
+#Split in new
+chr1	148248400	148359800	15_Quies
+#Split in new
+chr1	148359800	148362200	5_TxWk
+#Partially deleted in new
+chr1	148362200	148548400	15_Quies
+#Split in new
+chr1	148557200	148753400	15_Quies
+#Split in new
+chr1	148753400	148755800	5_TxWk
+#Split in new
+chr1	148755800	148849600	15_Quies
+#Split in new
+chr1	148854600	148855400	10_TssBiv
+#Partially deleted in new
+chr1	148949600	149020000	15_Quies
+#Split in new
+chr1	149029000	149034600	9_Het
+#Split in new
+chr1	149400600	149663800	15_Quies
+#Split in new
+chr1	149663800	149677000	14_ReprPCWk
+#Split in new
+chr1	149677000	149684200	15_Quies
+#Partially deleted in new
+chr1	149890400	149893800	5_TxWk
+#Partially deleted in new
+chr1	150037800	150038000	7_Enh
+#Split in new
+chr1	205920200	206134200	15_Quies
+#Split in new
+chr1	206224600	206539600	15_Quies
+#Split in new
+chr1	223715000	223815000	15_Quies
+#Partially deleted in new
+chr1	235185200	235242600	15_Quies
+#Partially deleted in new
+chr1	248900400	248909200	5_TxWk
+#Split in new
+chr1	248909200	249063200	15_Quies
+#Partially deleted in new
+chr1	249240200	249250600	15_Quies
+#Partially deleted in new
+chr20	0	73800	15_Quies
+#Partially deleted in new
+chr20	26318800	29426200	15_Quies
+#Partially deleted in new
+chr20	29653800	29654000	9_Het
+#Deleted in new
+chr20	29654000	29803600	15_Quies
+#Partially deleted in new
+chr20	29803600	29804000	9_Het
+#Partially deleted in new
+chr20	34896800	34947600	15_Quies
+#Partially deleted in new
+chr20	61070200	61092800	14_ReprPCWk
+#Partially deleted in new
+chr20	61092800	61143800	15_Quies
+#Partially deleted in new
+chr20	61213000	61264400	15_Quies
+#Partially deleted in new
+chr20	62961200	63025400	15_Quies
+#Partially deleted in new
+chr21	0	9416800	15_Quies
+#Partially deleted in new
+chr21	9589800	9596800	14_ReprPCWk
+#Partially deleted in new
+chr21	9596800	9646000	15_Quies
+#Partially deleted in new
+chr21	9719200	9824000	15_Quies
+#Deleted in new
+chr21	9824000	9825400	14_ReprPCWk
+#Partially deleted in new
+chr21	9825400	9825800	11_BivFlnk
+#Partially deleted in new
+chr21	10031200	10084600	15_Quies
+#Deleted in new
+chr21	10084600	10084800	9_Het
+#Partially deleted in new
+chr21	10084800	10086600	8_ZNF/Rpts
+#Partially deleted in new
+chr21	10204800	10420000	15_Quies
+#Partially deleted in new
+chr21	10643000	10697800	15_Quies
+#Partially deleted in new
+chr21	11188000	11188200	8_ZNF/Rpts
+#Deleted in new
+chr21	11188200	11188400	9_Het
+#Deleted in new
+chr21	11188400	14338000	15_Quies
+#Partially deleted in new
+chr21	42954600	43013800	15_Quies
+#Partially deleted in new
+chr21	43223800	43230200	5_TxWk
+#Partially deleted in new
+chr21	43248000	43254000	5_TxWk
+#Partially deleted in new
+chr21	44622000	44687800	15_Quies
+#Partially deleted in new
+chr21	48088200	48129800	15_Quies
+#Partially deleted in new
+chr22	0	16105400	15_Quies
+#Partially deleted in new
+chr22	16555600	16847800	15_Quies
+#Split in new
+chr22	18044400	18049400	5_TxWk
+#Split in new
+chr22	18057000	18061200	5_TxWk
+#Split in new
+chr22	20309200	20657400	15_Quies
+#Split in new
+chr22	20658000	20747600	15_Quies
+#Split in new
+chr22	24315800	24359400	15_Quies
+#Split in new
+chr22	24385200	24402200	15_Quies
+#Partially deleted in new
+chr22	50364600	50364800	1_TssA
+#Partially deleted in new
+chr22	50364800	50417200	15_Quies
+#Partially deleted in new
+chr22	51222800	51304400	15_Quies
+#Deleted in new
+chr2	0	10000	15_Quies
+#Split in new
+chr2	1215800	1217400	13_ReprPC
+#Split in new
+chr2	1217400	1219000	14_ReprPCWk
+#Split in new
+chr2	1219000	1250600	15_Quies
+#Partially deleted in new
+chr2	3529200	3580800	15_Quies
+#Partially deleted in new
+chr2	5002400	5207000	15_Quies
+#Partially deleted in new
+chr2	16271800	16342800	15_Quies
+#Split in new
+chr2	19173400	19319000	15_Quies
+#Partially deleted in new
+chr2	21151800	21176600	15_Quies
+#Partially deleted in new
+chr2	21176600	21178200	14_ReprPCWk
+#Partially deleted in new
+chr2	31714000	31751200	15_Quies
+#Split in new
+chr2	87624400	87893000	15_Quies
+#Split in new
+chr2	89461600	89830200	15_Quies
+#Partially deleted in new
+chr2	89830200	89830800	9_Het
+#Partially deleted in new
+chr2	89830800	89832400	8_ZNF/Rpts
+#Partially deleted in new
+chr2	89832400	89848600	9_Het
+#Partially deleted in new
+chr2	90261400	90371400	15_Quies
+#Split in new
+chr2	90381800	90411400	15_Quies
+#Split in new
+chr2	90451200	90481600	14_ReprPCWk
+#Split in new
+chr2	90481600	90482000	9_Het
+#Split in new
+chr2	90482000	90482400	8_ZNF/Rpts
+#Split in new
+chr2	90482400	90485200	5_TxWk
+#Split in new
+chr2	90485400	90485800	9_Het
+#Split in new
+chr2	90485800	91599000	15_Quies
+#Partially deleted in new
+chr2	91669800	91670000	1_TssA
+#Partially deleted in new
+chr2	91670400	91670800	13_ReprPC
+#Partially deleted in new
+chr2	91670800	91671000	10_TssBiv
+#Split in new
+chr2	91671000	91697000	14_ReprPCWk
+#Split in new
+chr2	91697000	91755400	15_Quies
+#Split in new
+chr2	91759400	91764000	13_ReprPC
+#Split in new
+chr2	92325200	95400000	15_Quies
+#Partially deleted in new
+chr2	110100400	110254800	15_Quies
+#Partially deleted in new
+chr2	149690400	149789600	15_Quies
+#Partially deleted in new
+chr2	149789600	149790600	5_TxWk
+#Partially deleted in new
+chr2	172811800	172852200	5_TxWk
+#Partially deleted in new
+chr2	233956000	234053800	15_Quies
+#Partially deleted in new
+chr2	239797200	239836400	15_Quies
+#Partially deleted in new
+chr2	240780600	240810400	15_Quies
+#Partially deleted in new
+chr2	242744400	242744600	2_TssAFlnk
+#Split in new
+chr2	242744600	242749400	5_TxWk
+#Split in new
+chr2	242754000	242768200	14_ReprPCWk
+#Partially deleted in new
+chr2	243049400	243152200	15_Quies
+#Partially deleted in new
+chr2	243152200	243153000	9_Het
+#Split in new
+chr2	243153000	243199200	15_Quies
+#Partially deleted in new
+chr3	0	105000	15_Quies
+#Partially deleted in new
+chr3	48483400	48483600	4_Tx
+#Partially deleted in new
+chr3	66140800	66270600	15_Quies
+#Partially deleted in new
+chr3	90505000	93506600	15_Quies
+#Partially deleted in new
+chr3	194036200	194045200	15_Quies
+#Partially deleted in new
+chr3	194045200	194054000	14_ReprPCWk
+#Split in new
+chr3	195182800	195232400	15_Quies
+#Partially deleted in new
+chr3	197900600	198022400	15_Quies
+#Deleted in new
+chr4	0	9800	15_Quies
+#Partially deleted in new
+chr4	9800	10600	9_Het
+#Partially deleted in new
+chr4	126200	129000	5_TxWk
+#Partially deleted in new
+chr4	1414800	1481200	15_Quies
+#Partially deleted in new
+chr4	8798400	8817600	15_Quies
+#Partially deleted in new
+chr4	8817600	8820000	14_ReprPCWk
+#Partially deleted in new
+chr4	9274000	9325800	15_Quies
+#Partially deleted in new
+chr4	31707400	31852600	15_Quies
+#Partially deleted in new
+chr4	40296800	40297200	9_Het
+#Partially deleted in new
+chr4	49325800	49512000	15_Quies
+#Deleted in new
+chr4	49660200	49660400	9_Het
+#Partially deleted in new
+chr4	49660400	52676600	15_Quies
+#Partially deleted in new
+chr4	59451000	59976200	15_Quies
+#Split in new
+chr4	75231800	75497000	15_Quies
+#Partially deleted in new
+chr4	191043200	191044400	9_Het
+#Deleted in new
+chr4	191044400	191154200	15_Quies
+#Partially deleted in new
+chr5	0	11600	15_Quies
+#Partially deleted in new
+chr5	17527200	17593600	15_Quies
+#Partially deleted in new
+chr5	46403800	49405400	15_Quies
+#Deleted in new
+chr5	49405400	49405600	9_Het
+#Partially deleted in new
+chr5	49405600	49406000	8_ZNF/Rpts
+#Partially deleted in new
+chr5	91564600	91686800	15_Quies
+#Partially deleted in new
+chr5	138776200	138838600	15_Quies
+#Partially deleted in new
+chr5	155115800	155188400	15_Quies
+#Partially deleted in new
+chr5	155188400	155189200	9_Het
+#Partially deleted in new
+chr6	0	154800	15_Quies
+#Split in new
+chr6	26707600	26739400	15_Quies
+#Split in new
+chr6	58006600	58140000	15_Quies
+#Split in new
+chr6	58779600	61880200	15_Quies
+#Split in new
+chr6	61913600	61914600	9_Het
+#Partially deleted in new
+chr6	61928800	61940800	9_Het
+#Partially deleted in new
+chr6	62035800	62178400	15_Quies
+#Split in new
+chr6	62178400	62199000	9_Het
+#Partially deleted in new
+chr6	95576800	95867800	15_Quies
+#Split in new
+chr6	157558200	157638800	15_Quies
+#Split in new
+chr6	157640200	157695000	15_Quies
+#Partially deleted in new
+chr6	167931800	168048400	15_Quies
+#Split in new
+chr6	169094000	169104600	15_Quies
+#Partially deleted in new
+chr6	170259000	170331200	15_Quies
+#Partially deleted in new
+chr6	170921800	171115000	15_Quies
+#Partially deleted in new
+chr7	0	42400	15_Quies
+#Partially deleted in new
+chr7	232400	284800	15_Quies
+#Partially deleted in new
+chr7	466200	466400	15_Quies
+#Partially deleted in new
+chr7	50356800	50446400	15_Quies
+#Deleted in new
+chr7	58054600	61054200	15_Quies
+#Partially deleted in new
+chr7	61054200	61054400	9_Het
+#Partially deleted in new
+chr7	61244200	61380800	15_Quies
+#Split in new
+chr7	61434600	61513400	15_Quies
+#Split in new
+chr7	61525000	61528600	15_Quies
+#Split in new
+chr7	61532000	61533600	15_Quies
+#Split in new
+chr7	61560400	61738600	15_Quies
+#Split in new
+chr7	61816200	61822800	9_Het
+#Split in new
+chr7	61866200	61899400	9_Het
+#Split in new
+chr7	61909000	61917200	9_Het
+#Deleted in new
+chr7	61917200	61967000	15_Quies
+#Partially deleted in new
+chr7	61967000	61967200	9_Het
+#Split in new
+chr7	64713200	64718600	15_Quies
+#Split in new
+chr7	64718600	64734000	14_ReprPCWk
+#Split in new
+chr7	72249600	72276400	5_TxWk
+#Split in new
+chr7	74492200	75044400	15_Quies
+#Partially deleted in new
+chr7	100550600	100551200	8_ZNF/Rpts
+#Partially deleted in new
+chr7	100553600	100557400	14_ReprPCWk
+#Deleted in new
+chr7	100557400	100606000	15_Quies
+#Split in new
+chr7	100606000	100607600	14_ReprPCWk
+#Deleted in new
+chr7	100607600	100608600	13_ReprPC
+#Deleted in new
+chr7	100608600	100609200	11_BivFlnk
+#Deleted in new
+chr7	100609200	100609800	12_EnhBiv
+#Deleted in new
+chr7	100609800	100610000	11_BivFlnk
+#Deleted in new
+chr7	100610000	100613400	13_ReprPC
+#Split in new
+chr7	100613400	100628400	14_ReprPCWk
+#Partially deleted in new
+chr7	130154000	130155600	5_TxWk
+#Split in new
+chr7	130155600	130288800	15_Quies
+#Partially deleted in new
+chr7	139377800	139404400	15_Quies
+#Split in new
+chr7	142037000	142102600	15_Quies
+#Split in new
+chr7	142264600	142326600	15_Quies
+#Split in new
+chr7	142476400	142490800	15_Quies
+#Partially deleted in new
+chr7	142494000	142494200	13_ReprPC
+#Partially deleted in new
+chr7	143212200	143572000	15_Quies
+#Partially deleted in new
+chr7	154262400	154376000	15_Quies
+#Split in new
+chr7	155126600	155128400	13_ReprPC
+#Split in new
+chr7	155128400	155137400	14_ReprPCWk
+#Partially deleted in new
+chr7	155141600	155145400	13_ReprPC
+#Partially deleted in new
+chr7	159103800	159138600	15_Quies
+#Partially deleted in new
+chr8	0	181600	15_Quies
+#Split in new
+chr8	2074800	2076000	1_TssA
+#Split in new
+chr8	2272800	2310400	14_ReprPCWk
+#Split in new
+chr8	2321800	2356000	15_Quies
+#Split in new
+chr8	2480800	2481200	1_TssA
+#Partially deleted in new
+chr8	7337400	8084800	15_Quies
+#Partially deleted in new
+chr8	12053000	12295000	15_Quies
+#Partially deleted in new
+chr8	43838800	43839000	9_Het
+#Partially deleted in new
+chr8	43839000	46839200	15_Quies
+#Partially deleted in new
+chr8	48110600	48172800	15_Quies
+#Split in new
+chr8	48204600	48229600	5_TxWk
+#Partially deleted in new
+chr8	86573000	86753000	15_Quies
+#Split in new
+chr8	140971400	140971800	5_TxWk
+#Split in new
+chr8	142744200	142836000	15_Quies
+#Partially deleted in new
+chr8	143737600	143738400	4_Tx
+#Split in new
+chr8	144292200	144293800	5_TxWk
+#Partially deleted in new
+chr8	144296800	144300600	14_ReprPCWk
+#Partially deleted in new
+chr8	144938200	144940600	15_Quies
+#Split in new
+chr8	145288800	145502400	15_Quies
+#Split in new
+chr8	145603600	145607600	5_TxWk
+#Partially deleted in new
+chr8	146301200	146364000	15_Quies
+#Partially deleted in new
+chr9	0	14200	15_Quies
+#Split in new
+chr9	39163000	40791400	15_Quies
+#Split in new
+chr9	40792600	41936400	15_Quies
+#Split in new
+chr9	42252000	43134000	15_Quies
+#Split in new
+chr9	43135200	44069800	15_Quies
+#Split in new
+chr9	44119000	44227200	15_Quies
+#Split in new
+chr9	44227600	44401800	15_Quies
+#Split in new
+chr9	44402200	44873400	15_Quies
+#Partially deleted in new
+chr9	44881800	44992600	15_Quies
+#Split in new
+chr9	44993400	45351000	15_Quies
+#Split in new
+chr9	45357200	45437400	15_Quies
+#Split in new
+chr9	45442600	45728400	15_Quies
+#Split in new
+chr9	45729000	45729400	10_TssBiv
+#Split in new
+chr9	45729400	45729800	1_TssA
+#Split in new
+chr9	45729800	66453200	15_Quies
+#Deleted in new
+chr9	66453200	66454600	14_ReprPCWk
+#Partially deleted in new
+chr9	66454600	66455600	11_BivFlnk
+#Split in new
+chr9	66540200	66796400	15_Quies
+#Deleted in new
+chr9	66863400	66863600	9_Het
+#Partially deleted in new
+chr9	66863600	67293200	15_Quies
+#Split in new
+chr9	67341000	67790600	15_Quies
+#Split in new
+chr9	67791200	67791400	10_TssBiv
+#Split in new
+chr9	67791400	67926400	15_Quies
+#Split in new
+chr9	67926800	68296800	15_Quies
+#Split in new
+chr9	68514200	68691800	15_Quies
+#Split in new
+chr9	68755000	68988800	15_Quies
+#Partially deleted in new
+chr9	68988800	68989000	9_Het
+#Split in new
+chr9	69181000	69687200	15_Quies
+#Partially deleted in new
+chr9	70010400	70010600	9_Het
+#Split in new
+chr9	70010600	70403000	15_Quies
+#Split in new
+chr9	70490600	70645800	15_Quies
+#Split in new
+chr9	70645800	70646400	1_TssA
+#Split in new
+chr9	70646400	70971400	15_Quies
+#Partially deleted in new
+chr9	92342000	92449800	15_Quies
+#Partially deleted in new
+chr9	92517800	92683600	15_Quies
+#Partially deleted in new
+chr9	133068200	133222400	15_Quies
+#Partially deleted in new
+chr9	133222400	133230000	14_ReprPCWk
+#Partially deleted in new
+chr9	136151600	136151800	13_ReprPC
+#Partially deleted in new
+chr9	137040800	137096800	15_Quies
+#Partially deleted in new
+chr9	139166600	139220200	15_Quies
+#Partially deleted in new
+chr9	141045000	141213400	15_Quies
+#Partially deleted in new
+chrX	0	70200	15_Quies
+#Partially deleted in new
+chrX	70600	169000	15_Quies
+#Partially deleted in new
+chrX	230800	232400	5_TxWk
+#Partially deleted in new
+chrX	232400	281400	15_Quies
+#Split in new
+chrX	1025200	1210200	15_Quies
+#Split in new
+chrX	1261400	1324000	15_Quies
+#Partially deleted in new
+chrX	2044400	2136200	15_Quies
+#Partially deleted in new
+chrX	7574600	7687800	15_Quies
+#Partially deleted in new
+chrX	10738400	10824400	15_Quies
+#Partially deleted in new
+chrX	36977200	37154800	15_Quies
+#Split in new
+chrX	46773400	46842200	15_Quies
+#Split in new
+chrX	48859400	48885200	15_Quies
+#Split in new
+chrX	49013200	49019800	15_Quies
+#Split in new
+chrX	49167000	49392000	15_Quies
+#Partially deleted in new
+chrX	49973000	50080200	15_Quies
+#Split in new
+chrX	52032600	52878200	15_Quies
+#Partially deleted in new
+chrX	58565800	61681800	15_Quies
+#Partially deleted in new
+chrX	61681800	61683400	9_Het
+#Partially deleted in new
+chrX	76626200	76722400	15_Quies
+#Split in new
+chrX	103303600	103356400	15_Quies
+#Split in new
+chrX	113139000	113568400	15_Quies
+#Split in new
+chrX	115124000	115764800	15_Quies
+#Partially deleted in new
+chrX	119995000	120143800	15_Quies
+#Split in new
+chrX	134856600	135054600	15_Quies
+#Partially deleted in new
+chrX	143480800	143620800	15_Quies
+#Partially deleted in new
+chrX	148714000	148959200	15_Quies
+#Partially deleted in new
+chrX	149029200	149099400	15_Quies
+#Split in new
+chrX	149544400	149576000	15_Quies
+#Split in new
+chrX	149577800	149589800	15_Quies
+#Split in new
+chrX	151806800	151994800	15_Quies
+#Split in new
+chrX	152226600	152466400	15_Quies
+#Split in new
+chrX	152468000	152599000	15_Quies
+#Partially deleted in new
+chrX	154472000	154492600	15_Quies
+#Partially deleted in new
+chrX	155242400	155270400	15_Quies
+#Split in new
+chrY	0	2655000	15_Quies
+#Partially deleted in new
+chrY	8881200	9144800	15_Quies
+#Partially deleted in new
+chrY	9147000	9409600	15_Quies
+#Partially deleted in new
+chrY	10091800	13131800	15_Quies
+#Partially deleted in new
+chrY	13143800	13144200	9_Het
+#Deleted in new
+chrY	13144200	13193600	15_Quies
+#Partially deleted in new
+chrY	13193600	13194000	9_Het
+#Partially deleted in new
+chrY	13725200	13798600	15_Quies
+#Partially deleted in new
+chrY	21907800	22736600	15_Quies
+#Partially deleted in new
+chrY	23760600	24362800	15_Quies
+#Split in new
+chrY	28818200	58819400	15_Quies
+#Split in new
+chrY	58916800	58968400	15_Quies

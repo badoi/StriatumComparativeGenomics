@@ -1,0 +1,1 @@
+slurmstepd: error: *** JOB 4186653 ON compute-1-18 CANCELLED AT 2024-06-28T14:55:17 ***

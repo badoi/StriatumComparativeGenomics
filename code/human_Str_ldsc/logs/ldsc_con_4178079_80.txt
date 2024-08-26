@@ -1,0 +1,5 @@
+/var/spool/slurmd/job4178159/slurm_script: line 44: activate: No such file or directory
+awk: fatal: cannot open file `/projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/gwas_list_sumstats.tsv' for reading (No such file or directory)
+awk: fatal: cannot open file `/projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files//gwas_list_sumstats.tsv' for reading (No such file or directory)
+awk: fatal: cannot open file `/projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/gwas_list_sumstats.tsv' for reading (No such file or directory)
+cut: /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/Human_Striatum_snATAC._hg38.ldcts: No such file or directory

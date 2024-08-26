@@ -1,0 +1,1 @@
+slurmstepd: error: *** JOB 4184642 ON compute-0-18 CANCELLED AT 2024-06-28T15:41:01 DUE TO TIME LIMIT ***

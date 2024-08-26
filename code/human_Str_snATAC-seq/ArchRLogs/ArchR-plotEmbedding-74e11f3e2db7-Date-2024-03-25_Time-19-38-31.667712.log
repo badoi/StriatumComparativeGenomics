@@ -1,0 +1,331 @@
+
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+Logging With ArchR!
+
+Start Time : 2024-03-25 19:38:31.88377
+
+------- ArchR Info
+
+ArchRThreads = 6
+ArchRGenome = Hg38
+
+------- System Info
+
+Computer OS = unix
+Total Cores = 8
+
+------- Session Info
+
+R version 4.3.1 (2023-06-16)
+Platform: x86_64-conda-linux-gnu (64-bit)
+Running under: CentOS Linux 7 (Core)
+
+Matrix products: default
+BLAS/LAPACK: /home/bnphan/mambaforge/lib/libopenblasp-r0.3.26.so;  LAPACK version 3.12.0
+
+Random number generation:
+ RNG:     L'Ecuyer-CMRG 
+ Normal:  Inversion 
+ Sample:  Rejection 
+ 
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: America/New_York
+tzcode source: system (glibc)
+
+attached base packages:
+ [1] parallel  stats4    grid      stats     graphics  grDevices utils    
+ [8] datasets  methods   base     
+
+other attached packages:
+ [1] hexbin_1.28.3               SingleCellExperiment_1.23.0
+ [3] SeuratDisk_0.0.0.9020       Seurat_5.0.3               
+ [5] SeuratObject_5.0.1          sp_2.1-3                   
+ [7] here_1.0.1                  rhdf5_2.42.1               
+ [9] SummarizedExperiment_1.32.0 Biobase_2.62.0             
+[11] MatrixGenerics_1.14.0       Rcpp_1.0.12                
+[13] Matrix_1.6-5                GenomicRanges_1.54.1       
+[15] GenomeInfoDb_1.38.1         IRanges_2.36.0             
+[17] S4Vectors_0.40.2            BiocGenerics_0.48.1        
+[19] matrixStats_1.2.0           data.table_1.15.2          
+[21] stringr_1.5.1               plyr_1.8.9                 
+[23] magrittr_2.0.3              ggplot2_3.4.3              
+[25] gtable_0.3.4                gtools_3.9.4               
+[27] gridExtra_2.3               ArchR_1.0.2                
+[29] colorout_1.2-2             
+
+loaded via a namespace (and not attached):
+  [1] RcppAnnoy_0.0.22                  splines_4.3.1                    
+  [3] later_1.3.2                       pbdZMQ_0.3-11                    
+  [5] BiocIO_1.12.0                     bitops_1.0-7                     
+  [7] tibble_3.2.1                      polyclip_1.10-6                  
+  [9] XML_3.99-0.16.1                   fastDummies_1.7.3                
+ [11] lifecycle_1.0.4                   rprojroot_2.0.4                  
+ [13] globals_0.16.2                    lattice_0.22-5                   
+ [15] hdf5r_1.3.8                       MASS_7.3-60                      
+ [17] plotly_4.10.3                     yaml_2.3.8                       
+ [19] BSgenome.Hsapiens.UCSC.hg38_1.4.5 httpuv_1.6.14                    
+ [21] sctransform_0.4.1                 spam_2.10-0                      
+ [23] spatstat.sparse_3.0-2             reticulate_1.34.0                
+ [25] cowplot_1.1.1                     pbapply_1.7-2                    
+ [27] RColorBrewer_1.1-3                abind_1.4-5                      
+ [29] zlibbioc_1.48.0                   Rtsne_0.17                       
+ [31] purrr_1.0.2                       RCurl_1.98-1.14                  
+ [33] GenomeInfoDbData_1.2.11           ggrepel_0.9.5                    
+ [35] irlba_2.3.5.1                     listenv_0.9.1                    
+ [37] spatstat.utils_3.0-3              goftest_1.2-3                    
+ [39] RSpectra_0.16-1                   spatstat.random_3.2-1            
+ [41] fitdistrplus_1.1-11               parallelly_1.37.1                
+ [43] leiden_0.4.3                      codetools_0.2-19                 
+ [45] DelayedArray_0.28.0               tidyselect_1.2.0                 
+ [47] farver_2.1.1                      base64enc_0.1-3                  
+ [49] spatstat.explore_3.2-5            GenomicAlignments_1.38.0         
+ [51] jsonlite_1.8.8                    ellipsis_0.3.2                   
+ [53] progressr_0.14.0                  ggridges_0.5.4                   
+ [55] survival_3.5-8                    tools_4.3.1                      
+ [57] ica_1.0-3                         glue_1.7.0                       
+ [59] SparseArray_1.2.2                 IRdisplay_1.1                    
+ [61] dplyr_1.1.4                       withr_3.0.0                      
+ [63] fastmap_1.1.1                     rhdf5filters_1.12.1              
+ [65] fansi_1.0.6                       digest_0.6.34                    
+ [67] R6_2.5.1                          mime_0.12                        
+ [69] colorspace_2.1-0                  Cairo_1.6-2                      
+ [71] scattermore_1.2                   tensor_1.5                       
+ [73] spatstat.data_3.0-1               utf8_1.2.4                       
+ [75] tidyr_1.3.1                       generics_0.1.3                   
+ [77] rtracklayer_1.62.0                httr_1.4.7                       
+ [79] htmlwidgets_1.6.4                 S4Arrays_1.2.0                   
+ [81] uwot_0.1.16                       pkgconfig_2.0.3                  
+ [83] lmtest_0.9-40                     XVector_0.42.0                   
+ [85] htmltools_0.5.7                   dotCall64_1.1-1                  
+ [87] scales_1.3.0                      png_0.1-8                        
+ [89] rjson_0.2.21                      reshape2_1.4.4                   
+ [91] uuid_1.2-0                        nlme_3.1-164                     
+ [93] repr_1.1.6                        zoo_1.8-12                       
+ [95] KernSmooth_2.23-22                miniUI_0.1.1.1                   
+ [97] restfulr_0.0.15                   pillar_1.9.0                     
+ [99] vctrs_0.6.5                       RANN_2.6.1                       
+[101] promises_1.2.1                    xtable_1.8-4                     
+[103] cluster_2.1.6                     evaluate_0.23                    
+[105] Rsamtools_2.18.0                  cli_3.6.2                        
+[107] compiler_4.3.1                    rlang_1.1.3                      
+[109] crayon_1.5.2                      future.apply_1.11.1              
+[111] labeling_0.4.3                    stringi_1.8.3                    
+[113] BiocParallel_1.36.0               viridisLite_0.4.2                
+[115] deldir_1.0-9                      munsell_0.5.0                    
+[117] Biostrings_2.70.1                 lazyeval_0.2.2                   
+[119] spatstat.geom_3.2-7               IRkernel_1.3.2                   
+[121] RcppHNSW_0.6.0                    BSgenome_1.70.1                  
+[123] patchwork_1.2.0                   bit64_4.0.5                      
+[125] future_1.33.1                     Rhdf5lib_1.24.0                  
+[127] shiny_1.8.0                       ROCR_1.0-11                      
+[129] igraph_1.5.1                      bit_4.0.5                        
+
+
+------- Log Info
+
+
+2024-03-25 19:38:32.385528 : Input-Parameters, Class = list
+
+Input-Parameters$ArchRProj: length = 1
+
+Input-Parameters$embedding: length = 1
+[1] "UMAPH300"
+
+
+Input-Parameters$colorBy: length = 1
+[1] "cellColData"
+
+
+Input-Parameters$name: length = 1
+[1] "Clusters2"
+
+
+Input-Parameters$log2Norm: length = 0
+NULL
+
+
+Input-Parameters$imputeWeights: length = 0
+NULL
+
+
+Input-Parameters$pal: length = 0
+NULL
+
+
+Input-Parameters$size: length = 1
+[1] 0.1
+
+
+Input-Parameters$sampleCells: length = 0
+NULL
+
+
+Input-Parameters$highlightCells: length = 0
+NULL
+
+
+Input-Parameters$rastr: length = 1
+[1] TRUE
+
+
+Input-Parameters$quantCut: length = 2
+[1] 0.01 0.99
+
+
+Input-Parameters$discreteSet: length = 0
+NULL
+
+
+Input-Parameters$continuousSet: length = 0
+NULL
+
+
+Input-Parameters$randomize: length = 1
+[1] TRUE
+
+
+Input-Parameters$keepAxis: length = 1
+[1] FALSE
+
+
+Input-Parameters$baseSize: length = 1
+[1] 10
+
+
+Input-Parameters$plotAs: length = 0
+NULL
+
+
+Input-Parameters$threads: length = 1
+[1] 6
+
+
+Input-Parameters$logFile: length = 1
+[1] "ArchRLogs/ArchR-plotEmbedding-74e11f3e2db7-Date-2024-03-25_Time-19-38-31.667712.log"
+
+
+
+2024-03-25 19:38:32.465826 : 
+
+2024-03-25 19:38:32.477501 : Embedding data.frame, Class = data.frame
+Embedding data.frame: nRows = 83115, nCols = 2
+                                  HarmonyX300#UMAP_Dimension_1
+NAC.MM_551#TAGTCACCCATAGGTAAGACCA                    5.5129997
+NAC.MM_551#GGGTTTACGCTAGCGTCATATG                   10.6556484
+NAC.MM_551#AGGTTATAGGTTGTCATGCGTG                   12.5824806
+NAC.MM_551#TGTATCTACCCAGCAACCGATC                    0.6037522
+NAC.MM_551#TTGACGTTGAAAAGCACTAGCG                   12.0541727
+NAC.MM_551#GGTTATGATGGCTAAGGATTAG                   12.3997175
+                                  HarmonyX300#UMAP_Dimension_2
+NAC.MM_551#TAGTCACCCATAGGTAAGACCA                    -1.076250
+NAC.MM_551#GGGTTTACGCTAGCGTCATATG                     6.226333
+NAC.MM_551#AGGTTATAGGTTGTCATGCGTG                     6.504040
+NAC.MM_551#TGTATCTACCCAGCAACCGATC                   -15.543991
+NAC.MM_551#TTGACGTTGAAAAGCACTAGCG                     6.967251
+NAC.MM_551#GGTTATGATGGCTAAGGATTAG                     6.719103
+
+
+
+2024-03-25 19:38:32.843446 : 
+
+2024-03-25 19:38:33.024421 : ColorParams 1, Class = list
+
+ColorParams 1$color: length = 83115
+[1] "INT"       "MSN"       "MSN"       "Microglia" "MSN"       "MSN"      
+
+
+ColorParams 1$discrete: length = 1
+[1] TRUE
+
+
+ColorParams 1$continuousSet: length = 1
+[1] "solarExtra"
+
+
+ColorParams 1$discreteSet: length = 1
+[1] "stallion"
+
+
+ColorParams 1$title: length = 1
+[1] "UMAPH300 of HarmonyX300  colored by\ncolData :  Clusters2"
+
+
+
+2024-03-25 19:38:33.070116 : PlotParams-1, Class = list
+
+PlotParams-1$color: length = 83115
+[1] "INT"       "MSN"       "MSN"       "Microglia" "MSN"       "MSN"      
+
+
+PlotParams-1$discrete: length = 1
+[1] TRUE
+
+
+PlotParams-1$continuousSet: length = 1
+[1] "solarExtra"
+
+
+PlotParams-1$discreteSet: length = 1
+[1] "stallion"
+
+
+PlotParams-1$title: length = 1
+[1] "UMAPH300 of HarmonyX300  colored by\ncolData :  Clusters2"
+
+
+PlotParams-1$x: length = 83115
+[1]  5.5129997 10.6556484 12.5824806  0.6037522 12.0541727 12.3997175
+
+
+PlotParams-1$y: length = 83115
+[1]  -1.076250   6.226333   6.504040 -15.543991   6.967251   6.719103
+
+
+PlotParams-1$baseSize: length = 1
+[1] 10
+
+
+PlotParams-1$xlabel: length = 1
+[1] "UMAP Dimension 1"
+
+
+PlotParams-1$ylabel: length = 1
+[1] "UMAP Dimension 2"
+
+
+PlotParams-1$rastr: length = 1
+[1] TRUE
+
+
+PlotParams-1$size: length = 1
+[1] 0.1
+
+
+PlotParams-1$randomize: length = 1
+[1] TRUE
+
+
+
+------- Completed
+
+End Time : 2024-03-25 19:38:33.442649
+Elapsed Time Minutes = 0.0259531140327454
+Elapsed Time Hours = 0.000432624551984999
+
+-------
+
+
+

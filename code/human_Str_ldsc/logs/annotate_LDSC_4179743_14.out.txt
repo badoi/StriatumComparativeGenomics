@@ -1,0 +1,65 @@
+Partitioning with 1000G LD scores on HapMap3 SNPs with Human_Striatum_snATAC.D2.Matrix.hg38 bed regions
+making annot file
+Computing partitioned LD scores for hg38 for AFR.
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--print-snps /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_EUR_Phase3_GRCh38_files/hapmap3_snps/listHM3.noMHC.txt \
+--out /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Matrix.hg38.AFR.14 \
+--bfile /tmp/ldsc-2024-06-24-IgyadYc3TK/1000G.AFR.HM3.14 \
+--thin-annot  \
+--annot /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Matrix.hg38.AFR.14.annot.gz \
+--l2  \
+--ld-wind-kb 1000.0 
+
+Beginning analysis at Mon Jun 24 13:05:48 2024
+Read list of 39610 SNPs from /tmp/ldsc-2024-06-24-IgyadYc3TK/1000G.AFR.HM3.14.bim
+Read 1 annotations for 39610 SNPs from /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Matrix.hg38.AFR.14.annot.gz
+Read list of 661 individuals from /tmp/ldsc-2024-06-24-IgyadYc3TK/1000G.AFR.HM3.14.fam
+Reading genotypes from /tmp/ldsc-2024-06-24-IgyadYc3TK/1000G.AFR.HM3.14.bed
+After filtering, 39610 SNPs remain
+Estimating LD Score.
+Reading list of 1215001 SNPs for which to print LD Scores from /projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_EUR_Phase3_GRCh38_files/hapmap3_snps/listHM3.noMHC.txt
+After merging with --print-snps, LD Scores for 39610 SNPs will be printed.
+Writing LD Scores for 39610 SNPs to /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Matrix.hg38.AFR.14.l2.ldscore.gz
+
+Summary of LD Scores in /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/annotations/Human_Striatum_snATAC.D2.Matrix.hg38.AFR.14.l2.ldscore.gz
+         MAF      L2
+mean  0.2252  0.6453
+std   0.1450  1.0753
+min   0.0015 -0.0668
+25%   0.0991  0.0805
+50%   0.2133  0.2386
+75%   0.3464  0.7498
+max   0.5000  8.7442
+
+MAF/LD Score Correlation Matrix
+        MAF      L2
+MAF  1.0000  0.1094
+L2   0.1094  1.0000
+
+Annotation Correlation Matrix
+       ANNOT
+ANNOT    1.0
+
+Annotation Matrix Column Sums
+ANNOT    2221
+
+Summary of Annotation Matrix Row Sums
+count    39610.0000
+mean         0.0561
+std          0.2301
+min          0.0000
+25%          0.0000
+50%          0.0000
+75%          0.0000
+max          1.0000
+Analysis finished at Mon Jun 24 13:09:12 2024
+Total time elapsed: 3.0m:23.41s
+Done.

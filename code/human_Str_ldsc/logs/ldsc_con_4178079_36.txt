@@ -1,0 +1,27 @@
+/var/spool/slurmd/job4178115/slurm_script: line 44: activate: No such file or directory
+awk: fatal: cannot open file `/projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/gwas_list_sumstats.tsv' for reading (No such file or directory)
+awk: fatal: cannot open file `/projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files//gwas_list_sumstats.tsv' for reading (No such file or directory)
+awk: fatal: cannot open file `/projects/pfenninggroup/machineLearningForComputationalBiology/gwasEnrichments/1000G_ALL_Phase3_hg38_files/gwas_list_sumstats.tsv' for reading (No such file or directory)
+cut: /projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/Human_Striatum_snATAC._hg38.ldcts: No such file or directory
+usage: ldsc.py [-h] [--out OUT] [--bfile BFILE] [--l2] [--extract EXTRACT]
+               [--keep KEEP] [--ld-wind-snps LD_WIND_SNPS]
+               [--ld-wind-kb LD_WIND_KB] [--ld-wind-cm LD_WIND_CM]
+               [--print-snps PRINT_SNPS] [--annot ANNOT] [--thin-annot]
+               [--cts-bin CTS_BIN] [--cts-breaks CTS_BREAKS]
+               [--cts-names CTS_NAMES] [--per-allele] [--pq-exp PQ_EXP]
+               [--no-print-annot] [--maf MAF] [--h2 H2] [--h2-cts H2_CTS]
+               [--rg RG] [--ref-ld REF_LD] [--ref-ld-chr REF_LD_CHR]
+               [--w-ld W_LD] [--w-ld-chr W_LD_CHR] [--overlap-annot]
+               [--print-coefficients] [--frqfile FRQFILE]
+               [--frqfile-chr FRQFILE_CHR] [--no-intercept]
+               [--intercept-h2 INTERCEPT_H2]
+               [--intercept-gencov INTERCEPT_GENCOV] [--M M]
+               [--two-step TWO_STEP] [--chisq-max CHISQ_MAX]
+               [--ref-ld-chr-cts REF_LD_CHR_CTS] [--print-all-cts]
+               [--print-cov] [--print-delete-vals] [--chunk-size CHUNK_SIZE]
+               [--pickle] [--yes-really] [--invert-anyway]
+               [--n-blocks N_BLOCKS] [--not-M-5-50] [--return-silly-things]
+               [--no-check-alleles] [--samp-prev SAMP_PREV]
+               [--pop-prev POP_PREV]
+ldsc.py: error: argument --h2: expected one argument
+awk: fatal: cannot open file `/projects/pfenninggroup/machineLearningForComputationalBiology/StriatumComparativeGenomics/data/tidy_data/human_Str_ldsc/conditional/Human_Striatum_snATAC.conditional...log' for reading (No such file or directory)
