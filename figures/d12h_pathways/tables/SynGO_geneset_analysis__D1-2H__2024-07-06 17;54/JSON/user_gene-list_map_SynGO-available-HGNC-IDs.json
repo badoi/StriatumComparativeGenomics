@@ -1,0 +1,2704 @@
+[
+  {
+    "user_input_genelist": "ASIC2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000108684",
+        "entrez_id": "40",
+        "hgnc_id": "HGNC:99",
+        "hgnc_name": "acid sensing ion channel subunit 2",
+        "hgnc_symbol": "ASIC2",
+        "hgnc_synonyms": [
+          "ASIC2A",
+          "BNAC1",
+          "HBNAC1",
+          "MDEG",
+          "ACCN",
+          "ACCN1"
+        ],
+        "user_input_genelist": [
+          "ASIC2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "NRXN2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000110076",
+        "entrez_id": "9379",
+        "hgnc_id": "HGNC:8009",
+        "hgnc_name": "neurexin 2",
+        "hgnc_symbol": "NRXN2",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "NRXN2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "GALNT10",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "XYLT1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SPON1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PLCB4",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000101333",
+        "entrez_id": "5332",
+        "hgnc_id": "HGNC:9059",
+        "hgnc_name": "phospholipase C beta 4",
+        "hgnc_symbol": "PLCB4",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "PLCB4"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "PENK",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000181195",
+        "entrez_id": "5179",
+        "hgnc_id": "HGNC:8831",
+        "hgnc_name": "proenkephalin",
+        "hgnc_symbol": "PENK",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "PENK"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "FAM155A",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PTPRK",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SEMA5B",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SP9",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TSHZ1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ELAVL4",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000162374",
+        "entrez_id": "1996",
+        "hgnc_id": "HGNC:3315",
+        "hgnc_name": "ELAV like RNA binding protein 4",
+        "hgnc_symbol": "ELAVL4",
+        "hgnc_synonyms": [
+          "PNEM",
+          "HUD"
+        ],
+        "user_input_genelist": [
+          "ELAVL4"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "MDFIC",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "KCNT2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "EPS8",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000151491",
+        "entrez_id": "2059",
+        "hgnc_id": "HGNC:3420",
+        "hgnc_name": "EGFR pathway substrate 8, signaling adaptor",
+        "hgnc_symbol": "EPS8",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "EPS8"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "LHFPL6",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CACNG5",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000075429",
+        "entrez_id": "27091",
+        "hgnc_id": "HGNC:1409",
+        "hgnc_name": "calcium voltage-gated channel auxiliary subunit gamma 5",
+        "hgnc_symbol": "CACNG5",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "CACNG5"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "TACR1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000115353",
+        "entrez_id": "6869",
+        "hgnc_id": "HGNC:11526",
+        "hgnc_name": "tachykinin receptor 1",
+        "hgnc_symbol": "TACR1",
+        "hgnc_synonyms": [
+          "NK1R",
+          "TAC1R"
+        ],
+        "user_input_genelist": [
+          "TACR1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "ADARB2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PPM1E",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TRHDE",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ZNF804B",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RXFP1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ALK",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000171094",
+        "entrez_id": "238",
+        "hgnc_id": "HGNC:427",
+        "hgnc_name": "ALK receptor tyrosine kinase",
+        "hgnc_symbol": "ALK",
+        "hgnc_synonyms": [
+          "CD246"
+        ],
+        "user_input_genelist": [
+          "ALK"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "PDIA5",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FNIP2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NTNG1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000162631",
+        "entrez_id": "22854",
+        "hgnc_id": "HGNC:23319",
+        "hgnc_name": "netrin G1",
+        "hgnc_symbol": "NTNG1",
+        "hgnc_synonyms": [
+          "KIAA0976",
+          "LMNT1",
+          "NETG1",
+          "NETRING1"
+        ],
+        "user_input_genelist": [
+          "NTNG1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "ATP2B4",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000058668",
+        "entrez_id": "493",
+        "hgnc_id": "HGNC:817",
+        "hgnc_name": "ATPase plasma membrane Ca2+ transporting 4",
+        "hgnc_symbol": "ATP2B4",
+        "hgnc_synonyms": [
+          "PMCA4",
+          "MXRA1"
+        ],
+        "user_input_genelist": [
+          "ATP2B4"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SCN5A",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SORCS2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LUZP2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "EYA2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "KIRREL1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CASZ1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GRIK3",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000163873",
+        "entrez_id": "2899",
+        "hgnc_id": "HGNC:4581",
+        "hgnc_name": "glutamate ionotropic receptor kainate type subunit 3",
+        "hgnc_symbol": "GRIK3",
+        "hgnc_synonyms": [
+          "GLUK3"
+        ],
+        "user_input_genelist": [
+          "GRIK3"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "PEX14",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AFF2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CPNE4",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000196353",
+        "entrez_id": "131034",
+        "hgnc_id": "HGNC:2317",
+        "hgnc_name": "copine 4",
+        "hgnc_symbol": "CPNE4",
+        "hgnc_synonyms": [
+          "COPN4",
+          "CPN4"
+        ],
+        "user_input_genelist": [
+          "CPNE4"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "FHOD3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RIMBP2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000060709",
+        "entrez_id": "23504",
+        "hgnc_id": "HGNC:30339",
+        "hgnc_name": "RIMS binding protein 2",
+        "hgnc_symbol": "RIMBP2",
+        "hgnc_synonyms": [
+          "KIAA0318",
+          "MGC15831",
+          "RIM-BP2",
+          "PPP1R133"
+        ],
+        "user_input_genelist": [
+          "RIMBP2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "VWC2L",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "KCNH8",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MAP3K1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CARMIL1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CAMK2D",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000145349",
+        "entrez_id": "817",
+        "hgnc_id": "HGNC:1462",
+        "hgnc_name": "calcium/calmodulin dependent protein kinase II delta",
+        "hgnc_symbol": "CAMK2D",
+        "hgnc_synonyms": [
+          "CAMKD"
+        ],
+        "user_input_genelist": [
+          "CAMK2D"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SHTN1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GABRA3",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000011677",
+        "entrez_id": "2556",
+        "hgnc_id": "HGNC:4077",
+        "hgnc_name": "gamma-aminobutyric acid type A receptor subunit alpha3",
+        "hgnc_symbol": "GABRA3",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "GABRA3"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SOX2-OT",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PBX3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "BCL9",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TOX",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ILDR2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NPTX1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000171246",
+        "entrez_id": "4884",
+        "hgnc_id": "HGNC:7952",
+        "hgnc_name": "neuronal pentraxin 1",
+        "hgnc_symbol": "NPTX1",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "NPTX1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "MVB12B",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TLL1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SEZ6L",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000100095",
+        "entrez_id": "23544",
+        "hgnc_id": "HGNC:10763",
+        "hgnc_name": "seizure related 6 homolog like",
+        "hgnc_symbol": "SEZ6L",
+        "hgnc_synonyms": [
+          "SEZ6L1"
+        ],
+        "user_input_genelist": [
+          "SEZ6L"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "KIT",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GRIK1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000171189",
+        "entrez_id": "2897",
+        "hgnc_id": "HGNC:4579",
+        "hgnc_name": "glutamate ionotropic receptor kainate type subunit 1",
+        "hgnc_symbol": "GRIK1",
+        "hgnc_synonyms": [
+          "GLUK1",
+          "GLUR5"
+        ],
+        "user_input_genelist": [
+          "GRIK1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "DOCK1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000150760",
+        "entrez_id": "1793",
+        "hgnc_id": "HGNC:2987",
+        "hgnc_name": "dedicator of cytokinesis 1",
+        "hgnc_symbol": "DOCK1",
+        "hgnc_synonyms": [
+          "DOCK180",
+          "CED5"
+        ],
+        "user_input_genelist": [
+          "DOCK1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "CA10",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GNAS",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000087460",
+        "entrez_id": "2778",
+        "hgnc_id": "HGNC:4392",
+        "hgnc_name": "GNAS complex locus",
+        "hgnc_symbol": "GNAS",
+        "hgnc_synonyms": [
+          "NESP55",
+          "NESP",
+          "GNASXL",
+          "GPSA",
+          "SCG6",
+          "SGVI",
+          "GNAS1"
+        ],
+        "user_input_genelist": [
+          "GNAS"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SLC35F1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ANKFN1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "EDN1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FGFR1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000077782",
+        "entrez_id": "2260",
+        "hgnc_id": "HGNC:3688",
+        "hgnc_name": "fibroblast growth factor receptor 1",
+        "hgnc_symbol": "FGFR1",
+        "hgnc_synonyms": [
+          "CEK",
+          "BFGFR",
+          "N-SAM",
+          "CD331",
+          "FLT2",
+          "KAL2"
+        ],
+        "user_input_genelist": [
+          "FGFR1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "KCNJ3",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000162989",
+        "entrez_id": "3760",
+        "hgnc_id": "HGNC:6264",
+        "hgnc_name": "potassium inwardly rectifying channel subfamily J member 3",
+        "hgnc_symbol": "KCNJ3",
+        "hgnc_synonyms": [
+          "KIR3.1",
+          "GIRK1"
+        ],
+        "user_input_genelist": [
+          "KCNJ3"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "NAB1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "EFR3A",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000132294",
+        "entrez_id": "23167",
+        "hgnc_id": "HGNC:28970",
+        "hgnc_name": "EFR3 homolog A",
+        "hgnc_symbol": "EFR3A",
+        "hgnc_synonyms": [
+          "KIAA0143"
+        ],
+        "user_input_genelist": [
+          "EFR3A"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "CACNA2D2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000007402",
+        "entrez_id": "9254",
+        "hgnc_id": "HGNC:1400",
+        "hgnc_name": "calcium voltage-gated channel auxiliary subunit alpha2delta 2",
+        "hgnc_symbol": "CACNA2D2",
+        "hgnc_synonyms": [
+          "KIAA0558",
+          "ALPHA2DELTA-2"
+        ],
+        "user_input_genelist": [
+          "CACNA2D2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "AC022126.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "HTR7",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000148680",
+        "entrez_id": "3363",
+        "hgnc_id": "HGNC:5302",
+        "hgnc_name": "5-hydroxytryptamine receptor 7",
+        "hgnc_symbol": "HTR7",
+        "hgnc_synonyms": [
+          "5-HT7"
+        ],
+        "user_input_genelist": [
+          "HTR7"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "AL590867.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "HIPK2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RXRG",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MAML3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CRHR2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "KCNC2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000166006",
+        "entrez_id": "3747",
+        "hgnc_id": "HGNC:6234",
+        "hgnc_name": "potassium voltage-gated channel subfamily C member 2",
+        "hgnc_symbol": "KCNC2",
+        "hgnc_synonyms": [
+          "KV3.2"
+        ],
+        "user_input_genelist": [
+          "KCNC2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SLC44A5",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TSPAN9",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RBP1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LRRC55",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TRHDE-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "OXR1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SHROOM3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "STMN1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AMOTL1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MTSS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GRB14",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TMEM132E",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ANKRD44",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GNG2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000186469",
+        "entrez_id": "54331",
+        "hgnc_id": "HGNC:4404",
+        "hgnc_name": "G protein subunit gamma 2",
+        "hgnc_symbol": "GNG2",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "GNG2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "AL356124.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PBX1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FAM163B",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "DLX6-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "OPRM1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000112038",
+        "entrez_id": "4988",
+        "hgnc_id": "HGNC:8156",
+        "hgnc_name": "opioid receptor mu 1",
+        "hgnc_symbol": "OPRM1",
+        "hgnc_synonyms": [
+          "MOR1"
+        ],
+        "user_input_genelist": [
+          "OPRM1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "DRD2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000149295",
+        "entrez_id": "1813",
+        "hgnc_id": "HGNC:3023",
+        "hgnc_name": "dopamine receptor D2",
+        "hgnc_symbol": "DRD2",
+        "hgnc_synonyms": [
+          "D2R"
+        ],
+        "user_input_genelist": [
+          "DRD2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "OTOF",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000115155",
+        "entrez_id": "9381",
+        "hgnc_id": "HGNC:8515",
+        "hgnc_name": "otoferlin",
+        "hgnc_symbol": "OTOF",
+        "hgnc_synonyms": [
+          "FER1L2",
+          "DFNB9"
+        ],
+        "user_input_genelist": [
+          "OTOF"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SORL1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "KCNIP1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "BRINP2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TRPM3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ABCA1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RAB3B",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000169213",
+        "entrez_id": "5865",
+        "hgnc_id": "HGNC:9778",
+        "hgnc_name": "RAB3B, member RAS oncogene family",
+        "hgnc_symbol": "RAB3B",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "RAB3B"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SOX2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NDST4",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FRK",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RAI2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NFIX",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "BACH2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TMEM150C",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CALCRL",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000064989",
+        "entrez_id": "10203",
+        "hgnc_id": "HGNC:16709",
+        "hgnc_name": "calcitonin receptor like receptor",
+        "hgnc_symbol": "CALCRL",
+        "hgnc_synonyms": [
+          "CGRPR",
+          "CRLR"
+        ],
+        "user_input_genelist": [
+          "CALCRL"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "PRKG2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CLSTN2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000158258",
+        "entrez_id": "64084",
+        "hgnc_id": "HGNC:17448",
+        "hgnc_name": "calsyntenin 2",
+        "hgnc_symbol": "CLSTN2",
+        "hgnc_synonyms": [
+          "CSTN2",
+          "CS2",
+          "FLJ39113",
+          "CDHR13"
+        ],
+        "user_input_genelist": [
+          "CLSTN2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "WLS",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000116729",
+        "entrez_id": "79971",
+        "hgnc_id": "HGNC:30238",
+        "hgnc_name": "Wnt ligand secretion mediator",
+        "hgnc_symbol": "WLS",
+        "hgnc_synonyms": [
+          "FLJ23091",
+          "EVI",
+          "MIG-14",
+          "C1ORF139",
+          "GPR177"
+        ],
+        "user_input_genelist": [
+          "WLS"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "PLXDC1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GABRQ",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ADCY6",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LECT2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ADAM19",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NRIP3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SOCS2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "STAC",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NELL1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PHLDA1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PTPRU",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "COL11A1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NOS1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000089250",
+        "entrez_id": "4842",
+        "hgnc_id": "HGNC:7872",
+        "hgnc_name": "nitric oxide synthase 1",
+        "hgnc_symbol": "NOS1",
+        "hgnc_synonyms": [
+          "NNOS"
+        ],
+        "user_input_genelist": [
+          "NOS1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "AC068722.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SLIT1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LRP8",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000157193",
+        "entrez_id": "7804",
+        "hgnc_id": "HGNC:6700",
+        "hgnc_name": "LDL receptor related protein 8",
+        "hgnc_symbol": "LRP8",
+        "hgnc_synonyms": [
+          "APOER2",
+          "MCI1",
+          "LRP-8",
+          "HSZ75190"
+        ],
+        "user_input_genelist": [
+          "LRP8"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "RGS16",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NFIB",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "VSTM2L",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC002383.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FMN1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SPHKAP",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RPP25",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "OLFM3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ARHGAP18",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "VAX1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AP000943.2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC125613.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PDE3A",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TRPC7",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PDE4B",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TLE2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SLC24A3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TRPC7-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SEMA5A",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PLEKHH2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SLCO5A1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GRIN2A",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000183454",
+        "entrez_id": "2903",
+        "hgnc_id": "HGNC:4585",
+        "hgnc_name": "glutamate ionotropic receptor NMDA type subunit 2A",
+        "hgnc_symbol": "GRIN2A",
+        "hgnc_synonyms": [
+          "GLUN2A",
+          "NR2A",
+          "NMDAR2A"
+        ],
+        "user_input_genelist": [
+          "GRIN2A"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "FBXL21P",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GABRG3-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ADARB2-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MCC",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MKX",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PCDH15",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CDH10",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000040731",
+        "entrez_id": "1008",
+        "hgnc_id": "HGNC:1749",
+        "hgnc_name": "cadherin 10",
+        "hgnc_symbol": "CDH10",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "CDH10"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "KSR1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FRMD7",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "BACH1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SLC22A10",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC068633.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LYPD1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "JAG1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SLC39A6",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "S100Z",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC00535",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AL050403.2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC061961.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TAFA2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SPECC1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ADCY2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "KCNAB3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MIR31HG",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FOXO6",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC023905.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FAM107B",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "DPY19L1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AL359649.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PTH2R",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "DLX2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC090579.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "OPRD1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000116329",
+        "entrez_id": "4985",
+        "hgnc_id": "HGNC:8153",
+        "hgnc_name": "opioid receptor delta 1",
+        "hgnc_symbol": "OPRD1",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "OPRD1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SHISA6",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000188803",
+        "entrez_id": "388336",
+        "hgnc_id": "HGNC:34491",
+        "hgnc_name": "shisa family member 6",
+        "hgnc_symbol": "SHISA6",
+        "hgnc_synonyms": [
+          "FLJ45455"
+        ],
+        "user_input_genelist": [
+          "SHISA6"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "GLUL",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ANKRD29",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MIR181A1HG",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RASSF8-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "BLVRA",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ITGA6",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TENM1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000009694",
+        "entrez_id": "10178",
+        "hgnc_id": "HGNC:8117",
+        "hgnc_name": "teneurin transmembrane protein 1",
+        "hgnc_symbol": "TENM1",
+        "hgnc_synonyms": [
+          "TEN-M1",
+          "TNM",
+          "ODZ1"
+        ],
+        "user_input_genelist": [
+          "TENM1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "INSYN2A",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000188916",
+        "entrez_id": "642938",
+        "hgnc_id": "HGNC:33859",
+        "hgnc_name": "inhibitory synaptic factor 2A",
+        "hgnc_symbol": "INSYN2A",
+        "hgnc_synonyms": [
+          "FLJ45557",
+          "C10ORF141",
+          "FAM196A",
+          "INSYN2"
+        ],
+        "user_input_genelist": [
+          "INSYN2A"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SYNJ2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000078269",
+        "entrez_id": "8871",
+        "hgnc_id": "HGNC:11504",
+        "hgnc_name": "synaptojanin 2",
+        "hgnc_symbol": "SYNJ2",
+        "hgnc_synonyms": [
+          "INPP5H"
+        ],
+        "user_input_genelist": [
+          "SYNJ2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "ANK1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TRPC4",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ANKRD6",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TGFBR1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GBX1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GPR149",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "KHDRBS3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PDE8B",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "USH2A",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AHRR",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ELN",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC01550",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "KCNJ6",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000157542",
+        "entrez_id": "3763",
+        "hgnc_id": "HGNC:6267",
+        "hgnc_name": "potassium inwardly rectifying channel subfamily J member 6",
+        "hgnc_symbol": "KCNJ6",
+        "hgnc_synonyms": [
+          "KIR3.2",
+          "GIRK2",
+          "KATP2",
+          "BIR1",
+          "HIGIRK2",
+          "KCNJ7"
+        ],
+        "user_input_genelist": [
+          "KCNJ6"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "LINC01305",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TBKBP1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MAGI2-AS3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "C4ORF45",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC00354",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "STK17A",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ENAH",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000154380",
+        "entrez_id": "55740",
+        "hgnc_id": "HGNC:18271",
+        "hgnc_name": "ENAH actin regulator",
+        "hgnc_symbol": "ENAH",
+        "hgnc_synonyms": [
+          "FLJ10773",
+          "NDPP1",
+          "MENA"
+        ],
+        "user_input_genelist": [
+          "ENAH"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "GSAP",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SMIM32",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GALNT14",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC132153.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NMBR",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "HDAC9",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GDNF-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ZFAND4",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CCDC150",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ITGA1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CRHBP",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "OLFM1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000130558",
+        "entrez_id": "10439",
+        "hgnc_id": "HGNC:17187",
+        "hgnc_name": "olfactomedin 1",
+        "hgnc_symbol": "OLFM1",
+        "hgnc_synonyms": [
+          "NOE1",
+          "OLFA",
+          "AMY",
+          "NOELIN"
+        ],
+        "user_input_genelist": [
+          "OLFM1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "CGN",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "INSYN2B",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "DPP10-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CAMK2N2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ZNF608",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MGST2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "BCL2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC01735",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC025839.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SULF2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "KCNK12",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CCDC50",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LMNTD1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ZNF385C",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LAMA3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PRKAR2A",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000114302",
+        "entrez_id": "5576",
+        "hgnc_id": "HGNC:9391",
+        "hgnc_name": "protein kinase cAMP-dependent type II regulatory subunit alpha",
+        "hgnc_symbol": "PRKAR2A",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "PRKAR2A"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "AC034226.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "C3ORF80",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AL133166.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TMEM26",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SPSB4",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "HS3ST1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RUNX1T1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "VSNL1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CCDC152",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC091885.2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC092590.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NPFFR2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GRIA4",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000152578",
+        "entrez_id": "2893",
+        "hgnc_id": "HGNC:4574",
+        "hgnc_name": "glutamate ionotropic receptor AMPA type subunit 4",
+        "hgnc_symbol": "GRIA4",
+        "hgnc_synonyms": [
+          "GLUA4",
+          "GLURD",
+          "GLUR-4",
+          "GLUR-D",
+          "GLUR4C",
+          "GLUR4"
+        ],
+        "user_input_genelist": [
+          "GRIA4"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "TMTC4",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FAM189A2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GNG12-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "HIVEP1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC01570",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LAMA2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000196569",
+        "entrez_id": "3908",
+        "hgnc_id": "HGNC:6482",
+        "hgnc_name": "laminin subunit alpha 2",
+        "hgnc_symbol": "LAMA2",
+        "hgnc_synonyms": [
+          "LAMM"
+        ],
+        "user_input_genelist": [
+          "LAMA2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "LINC02082",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AFAP1L2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FRMD3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC00200",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "WWTR1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC00886",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "THSD7B",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC068931.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GFRA1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PKDCC",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "IL1RAP",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000196083",
+        "entrez_id": "3556",
+        "hgnc_id": "HGNC:5995",
+        "hgnc_name": "interleukin 1 receptor accessory protein",
+        "hgnc_symbol": "IL1RAP",
+        "hgnc_synonyms": [
+          "IL-1RACP",
+          "IL1R3",
+          "C3ORF13"
+        ],
+        "user_input_genelist": [
+          "IL1RAP"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "AC064875.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MATN2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC068308.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GABRG3",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000182256",
+        "entrez_id": "2567",
+        "hgnc_id": "HGNC:4088",
+        "hgnc_name": "gamma-aminobutyric acid type A receptor subunit gamma3",
+        "hgnc_symbol": "GABRG3",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "GABRG3"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "C8ORF87",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "DLX1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MIR4500HG",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "VXN",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ANKRD36BP2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MFGE8",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FSTL5",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FOXP2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC006460.2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NECTIN3",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000177707",
+        "entrez_id": "25945",
+        "hgnc_id": "HGNC:17664",
+        "hgnc_name": "nectin cell adhesion molecule 3",
+        "hgnc_symbol": "NECTIN3",
+        "hgnc_synonyms": [
+          "NECTIN-3",
+          "PPR3",
+          "PVRR3",
+          "DKFZP566B0846",
+          "CDW113",
+          "CD113",
+          "PVRL3"
+        ],
+        "user_input_genelist": [
+          "NECTIN3"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "AC061958.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC027117.2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SOCS2-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FAT4",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PDZRN4",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CHN2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "C1ORF61",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TAC3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "HOPX",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PRKCA-AS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SEMA3E",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PLCXD3",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000182836",
+        "entrez_id": "345557",
+        "hgnc_id": "HGNC:31822",
+        "hgnc_name": "phosphatidylinositol specific phospholipase C X domain containing 3",
+        "hgnc_symbol": "PLCXD3",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "PLCXD3"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "STC1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC02694",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "COL27A1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "COLCA1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC02119",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "DNAH8",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PTPRO",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000151490",
+        "entrez_id": "5800",
+        "hgnc_id": "HGNC:9678",
+        "hgnc_name": "protein tyrosine phosphatase receptor type O",
+        "hgnc_symbol": "PTPRO",
+        "hgnc_synonyms": [
+          "PTPU2",
+          "GLEPP1",
+          "PTP-U2",
+          "PTP-OC",
+          "NPHS6"
+        ],
+        "user_input_genelist": [
+          "PTPRO"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "MDGA1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000112139",
+        "entrez_id": "266727",
+        "hgnc_id": "HGNC:19267",
+        "hgnc_name": "MAM domain containing glycosylphosphatidylinositol anchor 1",
+        "hgnc_symbol": "MDGA1",
+        "hgnc_synonyms": [
+          "GPIM",
+          "MAMDC3"
+        ],
+        "user_input_genelist": [
+          "MDGA1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "DIRAS3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC007402.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC020637.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GALNTL6",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PCDH8",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000136099",
+        "entrez_id": "5100",
+        "hgnc_id": "HGNC:8660",
+        "hgnc_name": "protocadherin 8",
+        "hgnc_symbol": "PCDH8",
+        "hgnc_synonyms": [
+          "PAPC",
+          "ARCADLIN"
+        ],
+        "user_input_genelist": [
+          "PCDH8"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "AC020911.2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC01411",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PDE1A",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "STARD5",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINC01197",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CADPS2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000081803",
+        "entrez_id": "93664",
+        "hgnc_id": "HGNC:16018",
+        "hgnc_name": "calcium dependent secretion activator 2",
+        "hgnc_symbol": "CADPS2",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "CADPS2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "MAST4",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NRG1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000157168",
+        "entrez_id": "3084",
+        "hgnc_id": "HGNC:7997",
+        "hgnc_name": "neuregulin 1",
+        "hgnc_symbol": "NRG1",
+        "hgnc_synonyms": [
+          "NDF",
+          "GGF",
+          "NRG1-IT2"
+        ],
+        "user_input_genelist": [
+          "NRG1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "NRXN1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000179915",
+        "entrez_id": "9378",
+        "hgnc_id": "HGNC:8008",
+        "hgnc_name": "neurexin 1",
+        "hgnc_symbol": "NRXN1",
+        "hgnc_synonyms": [
+          "KIAA0578",
+          "HS.22998"
+        ],
+        "user_input_genelist": [
+          "NRXN1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "GPM6A",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000150625",
+        "entrez_id": "2823",
+        "hgnc_id": "HGNC:4460",
+        "hgnc_name": "glycoprotein M6A",
+        "hgnc_symbol": "GPM6A",
+        "hgnc_synonyms": [
+          "GPM6"
+        ],
+        "user_input_genelist": [
+          "GPM6A"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "PLXDC2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SIDT1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TIAM1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000156299",
+        "entrez_id": "7074",
+        "hgnc_id": "HGNC:11805",
+        "hgnc_name": "TIAM Rac1 associated GEF 1",
+        "hgnc_symbol": "TIAM1",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "TIAM1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "CHRM3",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000133019",
+        "entrez_id": "1131",
+        "hgnc_id": "HGNC:1952",
+        "hgnc_name": "cholinergic receptor muscarinic 3",
+        "hgnc_symbol": "CHRM3",
+        "hgnc_synonyms": [
+          "M3ACHR"
+        ],
+        "user_input_genelist": [
+          "CHRM3"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "CADM1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000182985",
+        "entrez_id": "23705",
+        "hgnc_id": "HGNC:5951",
+        "hgnc_name": "cell adhesion molecule 1",
+        "hgnc_symbol": "CADM1",
+        "hgnc_synonyms": [
+          "NECL2",
+          "ST17",
+          "BL2",
+          "SYNCAM",
+          "IGSF4A",
+          "NECL-2",
+          "SYNCAM1",
+          "RA175",
+          "TSLC1",
+          "IGSF4"
+        ],
+        "user_input_genelist": [
+          "CADM1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "GRIN3A",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000198785",
+        "entrez_id": "116443",
+        "hgnc_id": "HGNC:16767",
+        "hgnc_name": "glutamate ionotropic receptor NMDA type subunit 3A",
+        "hgnc_symbol": "GRIN3A",
+        "hgnc_synonyms": [
+          "GLUN3A"
+        ],
+        "user_input_genelist": [
+          "GRIN3A"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "NRP2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000118257",
+        "entrez_id": "8828",
+        "hgnc_id": "HGNC:8005",
+        "hgnc_name": "neuropilin 2",
+        "hgnc_symbol": "NRP2",
+        "hgnc_synonyms": [
+          "VEGF165R2"
+        ],
+        "user_input_genelist": [
+          "NRP2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "PCDH11Y",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ST3GAL1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CCPG1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CDH9",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000113100",
+        "entrez_id": "1007",
+        "hgnc_id": "HGNC:1768",
+        "hgnc_name": "cadherin 9",
+        "hgnc_symbol": "CDH9",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "CDH9"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "CELF4",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PRKD1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PPFIA2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000139220",
+        "entrez_id": "8499",
+        "hgnc_id": "HGNC:9246",
+        "hgnc_name": "PTPRF interacting protein alpha 2",
+        "hgnc_symbol": "PPFIA2",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "PPFIA2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "DPYD",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CALN1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SLC2A13",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PTPRM",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "N4BP2L2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AGBL1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TENM4",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000149256",
+        "entrez_id": "26011",
+        "hgnc_id": "HGNC:29945",
+        "hgnc_name": "teneurin transmembrane protein 4",
+        "hgnc_symbol": "TENM4",
+        "hgnc_synonyms": [
+          "KIAA1302",
+          "TEN-M4",
+          "TEN4",
+          "DOC4",
+          "ODZ4"
+        ],
+        "user_input_genelist": [
+          "TENM4"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "UNC5D",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SUZ12P1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CXCL14",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "CHL1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TNKS",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SCN3A",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TTC28",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SYN2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000157152",
+        "entrez_id": "6854",
+        "hgnc_id": "HGNC:11495",
+        "hgnc_name": "synapsin II",
+        "hgnc_symbol": "SYN2",
+        "hgnc_synonyms": [
+          "SYNII",
+          "SYNIIA",
+          "SYNIIB"
+        ],
+        "user_input_genelist": [
+          "SYN2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "TMEFF2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ZNF804A",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ST6GALNAC5",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC092691.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FNDC3A",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "SYNPR",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000163630",
+        "entrez_id": "132204",
+        "hgnc_id": "HGNC:16507",
+        "hgnc_name": "synaptoporin",
+        "hgnc_symbol": "SYNPR",
+        "hgnc_synonyms": [
+          "MGC26651"
+        ],
+        "user_input_genelist": [
+          "SYNPR"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "RFX3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "REV3L",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RAPGEF4",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000091428",
+        "entrez_id": "11069",
+        "hgnc_id": "HGNC:16626",
+        "hgnc_name": "Rap guanine nucleotide exchange factor 4",
+        "hgnc_symbol": "RAPGEF4",
+        "hgnc_synonyms": [
+          "CAMP-GEFII",
+          "CGEF2"
+        ],
+        "user_input_genelist": [
+          "RAPGEF4"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "NALCN",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MT-ND3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AEBP2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AK5",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC008415.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC013287.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GRIP1",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000155974",
+        "entrez_id": "23426",
+        "hgnc_id": "HGNC:18708",
+        "hgnc_name": "glutamate receptor interacting protein 1",
+        "hgnc_symbol": "GRIP1",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "GRIP1"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SLC4A10",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TRPS1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "TMEM232",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "GABRA2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000151834",
+        "entrez_id": "2555",
+        "hgnc_id": "HGNC:4076",
+        "hgnc_name": "gamma-aminobutyric acid type A receptor subunit alpha2",
+        "hgnc_symbol": "GABRA2",
+        "hgnc_synonyms": [],
+        "user_input_genelist": [
+          "GABRA2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "SESN3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NAV3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "UNC5C",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ZBTB20",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "FAF1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LINGO2",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000174482",
+        "entrez_id": "158038",
+        "hgnc_id": "HGNC:21207",
+        "hgnc_name": "leucine rich repeat and Ig domain containing 2",
+        "hgnc_symbol": "LINGO2",
+        "hgnc_synonyms": [
+          "LERN3",
+          "LRRN6C"
+        ],
+        "user_input_genelist": [
+          "LINGO2"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "DPH6",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "RIT2",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ASTN1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "NMD3",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PRANCR",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ANKRD30BL",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "AC021231.1",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "MIR100HG",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "ADK",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "PCLO",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000186472",
+        "entrez_id": "27445",
+        "hgnc_id": "HGNC:13406",
+        "hgnc_name": "piccolo presynaptic cytomatrix protein",
+        "hgnc_symbol": "PCLO",
+        "hgnc_synonyms": [
+          "KIAA0559",
+          "DKFZP779G1236",
+          "ACZ"
+        ],
+        "user_input_genelist": [
+          "PCLO"
+        ]
+      }
+    ]
+  },
+  {
+    "user_input_genelist": "MIR137HG",
+    "idmap": []
+  },
+  {
+    "user_input_genelist": "LSAMP",
+    "idmap": [
+      {
+        "ensembl_id": "ENSG00000185565",
+        "entrez_id": "4045",
+        "hgnc_id": "HGNC:6705",
+        "hgnc_name": "limbic system associated membrane protein",
+        "hgnc_symbol": "LSAMP",
+        "hgnc_synonyms": [
+          "IGLON3"
+        ],
+        "user_input_genelist": [
+          "LSAMP"
+        ]
+      }
+    ]
+  }
+]
