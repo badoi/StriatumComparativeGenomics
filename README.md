@@ -22,7 +22,4 @@ The scripts to generate the main and supplemental figures are included in the `f
 - `plot_multispecies_integration.R`: plots the UMAP and marker gene plots for the main and supplemental figures
 - `plot_multispecies_proportions.R`: calculates the and plots the cell type proportions across striatal subregions
 
-Due to size constraints, the single cell `.h5Seurat` files that contain the integrated cell type and spatial subtype labels are located at _http://daphne.compbio.cs.cmu.edu/files/bnphan/StriatumComparativeGenomics/_.
-Seurat files of the integrated objects and separated by each dataset are located [here](http://daphne.compbio.cs.cmu.edu/files/bnphan/StriatumComparativeGenomics/data/tidy_data/rdas/)
-
 ![main integrated umaps of multi-omics, multi-species striatal single cell datasets](figures/main_fig6_multi-species_single_cell.jpg)
